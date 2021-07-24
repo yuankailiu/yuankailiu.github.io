@@ -52,5 +52,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-show_downloads: true
+show_downloads: False
 google_analytics:
