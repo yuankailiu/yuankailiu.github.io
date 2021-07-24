@@ -1,6 +1,9 @@
+---
 layout: page
 title: "Research brief"
 permalink: /research/
+filename: research.md
+---
 
 # My research
 

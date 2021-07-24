@@ -1,3 +1,8 @@
+---
+title: my blog
+layout: default
+---
+
 # About Me
 
 Hi! I am a geophysicist and PhD student at [Caltech Seismolab](http://www.seismolab.caltech.edu/liu_yk.html) working under the mentorship of [Mark Simons](http://web.gps.caltech.edu/~simons/) and [Zach Ross](http://web.gps.caltech.edu/~zross/). I am interested in applying space-bourne geodesy and statistical seismicity techniques to understand geophysical processes associated with seismic cycles, aseismic tectonic deformation, caldera unrests and subsidence.
