@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Research brief"
-permalink: /research.html/
 ---
 
 # My research
