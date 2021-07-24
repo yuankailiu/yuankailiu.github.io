@@ -1,6 +1,5 @@
 ---
-title: my blog
-layout: default
+layout: main
 ---
 
 # About Me
@@ -30,7 +29,7 @@ If you are interested in some of the softwares, codes I am working on, visit my 
 
 ## Contact
 
-*   Email: ykliu@caltech.edu
-*   Twitter: https://twitter.com/yuan_kai_liu (I am not very active though...)
-*   ResearchGate: https://www.researchgate.net/profile/Yuan-Kai-Liu
+*   Email: <ykliu@caltech.edu>
+*   Twitter: <https://twitter.com/yuan_kai_liu> (I am not very active though...)
+*   ResearchGate: <https://www.researchgate.net/profile/Yuan-Kai-Liu>
 
