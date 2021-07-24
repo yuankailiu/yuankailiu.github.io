@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Yuan-Kai Liu
-logo: /img/bosphorus.JPG
+logo: /assets/img/bosphorus.JPG
 email: ykliu@caltech.com
 description: Bosphorus Strait, 2017
 #baseurl: "" # the subpath of your site, e.g. /blog
