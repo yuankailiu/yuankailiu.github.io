@@ -52,6 +52,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-logo: /assets/img/bosphorus.JPG
+logo: .img/bosphorus.JPG
 show_downloads: true
 google_analytics:
