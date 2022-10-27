@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "8445fbb92d422a00",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e8f4f1d5ae502f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5f75b78250c2d65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Materials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8523dd5e1cc29bc0",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa53075895c428af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc336a210256c1bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bd5696962dc249c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "92e0853ad8b07527",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40a55cf17e87502f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2c64bbd38b6d3cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a045439d73a9218",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Materials.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "60d4ab3bc86400b4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Materials.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f18722e91785eb3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "062ab31cacd4fbe2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Materials.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e5f75b78250c2d65",
+  "lastOpenFiles": [
+    "research.md",
+    "README.md",
+    "index.md",
+    "Materials.md",
+    "_site/docs/SUPPORT.md",
+    "_site/docs/CONTRIBUTING.md",
+    "_site/docs/CODE_OF_CONDUCT.md"
+  ]
+}
