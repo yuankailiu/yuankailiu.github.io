@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "2e8f4f1d5ae502f7",
+        "id": "5d7091d98bd4a3b8",
         "type": "tabs",
         "children": [
           {
-            "id": "e5f75b78250c2d65",
+            "id": "975dd37c2da42987",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Materials.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "0bd01136413fbc34",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Materials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Materials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Materials.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,12 +141,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e5f75b78250c2d65",
+  "active": "cc336a210256c1bb",
   "lastOpenFiles": [
-    "research.md",
-    "README.md",
     "index.md",
+    "README.md",
+    "research.md",
     "Materials.md",
+    "assets/img/ykliu_cv.pdf",
+    "assets/img/logo.png",
+    "assets/img/bosphorus.JPG",
     "_site/docs/SUPPORT.md",
     "_site/docs/CONTRIBUTING.md",
     "_site/docs/CODE_OF_CONDUCT.md"

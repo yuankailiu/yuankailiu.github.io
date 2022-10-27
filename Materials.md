@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Materials"
-permalink: https://yuankailiu.github.io/materials
+permalink: /materials/
 ---
 
 ## Welcome to Materials
