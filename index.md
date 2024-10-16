@@ -6,32 +6,27 @@ layout: default
 
 *   *   *
 
-Hi! Welcome to my page. On being a geophysicist, I am a PhD student at [Caltech Seismolab](http://www.seismolab.caltech.edu/liu_yk.html) working under the mentorship of [Mark Simons](http://web.gps.caltech.edu/~simons/) and [Zach Ross](http://web.gps.caltech.edu/~zross/). My research incorporates spacebourne geodesy and statistical techniques on seismicity to understand geophysical processes associated with seismic cycles, aseismic tectonic deformation, caldera unrests and collapses.
+Hi! Welcome to my page. I am a graduate student at [Caltech Seismolab](https://www.seismolab.caltech.edu) working under the mentorship of [Mark Simons](http://web.gps.caltech.edu/~simons/) and [Zach Ross](http://web.gps.caltech.edu/~zross/). My research incorporates space geodesy and statistical methods on seismicity to understand geophysical processes associated with seismic cycles, aseismic deformation, and tectonic processes. In the past, I also work with [Sigurjón Jónsson](https://cdi.kaust.edu.sa/people/detail/sigurj%C3%B3n-j%C3%B3nsson) in KAUST on the crustal deformation of caldera collapses.
 
-To see my publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?authuser=1&user=YCCuojgAAAAJ).
+My [Google Scholar profile](https://scholar.google.com/citations?authuser=1&user=YCCuojgAAAAJ).
 
-If interested in some of the softwares, codes that I am using, visit my [GitHub page](https://github.com/yuankailiu).
-
+My [GitHub page](https://github.com/yuankailiu).
 
 ## Education
 
 *   *   *
 
 
-+ California Institute of Technology, CA, USA (Fall 2019–present): PhD in progress in Geophysics
-
-+ California Institute of Technology, CA, USA (Fall 2019–Summer 2021): MSc in Geophysics
-
-+ King Abdullah University of Science and Technology, Thuwal, KSA (2016–2018): MSc in Earth Science and Engineering
-
-+ National Taiwan University, Taipei, Taiwan (2010–2015): BS in Geology and BEng in Civil Engineering
++ California Institute of Technology, CA, USA (2019–): Ph.D. candidate, Geophysics
++ King Abdullah University of Science and Technology, Saudi Arabia (2016–2018): M.S. in Earth Science and Engineering
++ National Taiwan University, Taiwan (2010–2015): B.S. in Geology; B.S. in Civil Engineering
 
 
 ## Experience
 
 *   *   *
 
-+ Caltech Seismological Laboratory (Summer 2019–present): Graduate student researcher
++ Caltech Seismological Laboratory (Summer 2019–): Graduate student researcher
 
 + King Abdullah University of Science and Technology, Crustal deformation & InSAR group (2016–2018): Graduate researcher
 
@@ -51,3 +46,9 @@ If interested in some of the softwares, codes that I am using, visit my [GitHub 
 +   ORCID ID: <https://orcid.org/0000-0003-4032-9444>
 
 +   ResearchGate: <https://www.researchgate.net/profile/Yuan-Kai-Liu>
+
+
+
+![group_photo](assets/img/jpl_group_visit.jpeg){:class="img-responsive"}
+
+> Mark Simons' group members in front of JPL, 2022
