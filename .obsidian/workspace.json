@@ -193,13 +193,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "cc336a210256c1bb",
+  "active": "975dd37c2da42987",
   "lastOpenFiles": [
-    "assets/img/caltech-retouch.jpg",
-    "research.md",
-    "README.md",
     "Materials.md",
+    "README.md",
+    "research.md",
     "index.md",
+    "assets/img/caltech-retouch.jpg",
     "docs/SUPPORT.md",
     "assets/img/ykliu_cv_202605.pdf",
     "docs/CONTRIBUTING.md",
@@ -215,7 +215,6 @@
     "assets/img/ykliu_cv.pdf",
     "assets/img/ykliu_cv_old.pdf",
     "assets/img/logo.png",
-    "assets/img/bosphorus.JPG",
     "_site/docs/SUPPORT.md",
     "_site/docs/CONTRIBUTING.md",
     "_site/docs/CODE_OF_CONDUCT.md"

@@ -2,3 +2,14 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+/* 修改左側/頂部標題 Yuan-Kai Liu 的顏色 */
+header h1 a {
+  color: #aa1414 !important; /* 這裡換成你想要的顏色代碼 */
+  text-decoration: none;
+}
+
+/* 游標懸停時的顏色（可選） */
+header h1 a:hover {
+  color: #e12d2d !important;
+}

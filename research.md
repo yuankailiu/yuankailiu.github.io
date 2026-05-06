@@ -11,7 +11,7 @@ permalink: /research/
 > Seismic cycles, tectonic geodesy, InSAR, crustal deformation, earthquakes
 
 
-#### Interseismic Loading of the Peru-Chile Subduction Zone using InSAR and Bayesian Inference (in prep.)
+#### Interseismic Loading of the Peru-Chile Subduction Zone using InSAR and Bayesian Inference (in prep.) {: #topics-chile-insar}
 
 ![insar_euler](assets/img/chile-datamodel.jpg){:style="width: 98%; height: auto;"}
 
