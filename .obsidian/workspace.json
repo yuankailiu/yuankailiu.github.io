@@ -16,7 +16,9 @@
                 "file": "index.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +53,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cv",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +69,19 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "d1baa8c0e74ac231",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -93,7 +112,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
             }
           },
           {
@@ -105,7 +126,9 @@
                 "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -115,8 +138,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +152,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
-              }
+                "file": "index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          },
+          {
+            "id": "2289c1587fead866",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -136,13 +182,38 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "975dd37c2da42987",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "cc336a210256c1bb",
   "lastOpenFiles": [
-    "index.md",
-    "README.md",
+    "assets/img/caltech-retouch.jpg",
     "research.md",
+    "README.md",
     "Materials.md",
+    "index.md",
+    "docs/SUPPORT.md",
+    "assets/img/ykliu_cv_202605.pdf",
+    "docs/CONTRIBUTING.md",
+    "docs/CODE_OF_CONDUCT.md",
+    "assets/img/grl-2024-insarEuler-fit.jpg",
+    "assets/img/chile-datamodel.jpg",
+    "assets/img/grl-2024-insarEuler-fit.png",
+    "assets/img/sciadv.abk1167-f3.jpg",
+    "assets/img/sciadv.abk1167-f2.jpg",
+    "Pasted image 20260506073023.png",
+    "Pasted image 20260506073010.png",
+    "assets/img/sirhan_uplift.jpg",
     "assets/img/ykliu_cv.pdf",
+    "assets/img/ykliu_cv_old.pdf",
     "assets/img/logo.png",
     "assets/img/bosphorus.JPG",
     "_site/docs/SUPPORT.md",

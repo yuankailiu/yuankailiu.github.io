@@ -8,15 +8,29 @@ permalink: /research/
 
 *   *   *
 
-> Seismic cycles, geodesy, interferometric synthetic aperture radar, crustal deformation, earthquake statistics
+> Seismic cycles, tectonic geodesy, InSAR, crustal deformation, earthquakes
+
+
+#### Interseismic Loading of the Peru-Chile Subduction Zone using InSAR and Bayesian Inference (in prep.)
+
+![insar_euler](assets/img/chile-datamodel.jpg){:style="width: 98%; height: auto;"}
+
+Subduction zones exhibit broad deformation, most intense near the trench and coastline. This surface motion is a direct signature of the mechanical coupling between tectonic plates. Along the northern 2,500 km of the Peru-Chile megathrust, quantifying the spatial distribution of this strain is fundamental to understanding the mechanics of the South American lithosphere.
+
+Using a decade of **Sentinel-1 InSAR data (2014–2025)** and Bayesian inference, we developed a probabilistic model of slip deficit. Unlike traditional smoothing methods, our approach uses physical priors to preserve high-resolution variations in fault coupling. This reveals a complex mosaic of locked and creeping segments that correlate with the bathymetry of subducting oceanic ridges and the geometric complexities of the plate interface.
+
+Our wide-area dataset also captures long-wavelength deformation extending 400 km inland. These signals suggest that surface motion is influenced by deeper processes beyond simple interface locking, including intra-slab stresses and the tectonic shortening that drives Andean orogeny. This work bridges the gap between the transient behavior of the earthquake cycle and the long-term mechanical forces that build mountain ranges.
+
 
 #### Inferring absolute plate rotation at GNSS-sparse region, using InSAR secular velocities
 
-![insar_euler](assets/img/grl-2024-insarEuler.jpg){:style="width: 90%; height: auto;"}
+![insar_euler](assets/img/grl-2024-insarEuler.jpg){:style="width: 85%; height: auto;"}
+
+![insar_euler](assets/img/grl-2024-insarEuler-fit.jpg){:style="width: 98%; height: auto;"}
 
 Plate motion models provide critical input to understanding lithospheric kinematics and strain accumulation along boundary zones. From large tectonic plates to regional tectonic blocks, these models are commonly determined using velocities from Global Navigation Satellite System (GNSS) stations. But what do we do at places with only sparse distribution of permanent GNSS stations in the plate interiors?
 
-[In this manuscript]() (to be submitted), we use the spatial gradients of line-of-sight velocity fields over the Arabian Peninsula to constrain a common rigid rotation pole in a global reference frame. We correct for long-wavelength effects from troposphere, ionosphere, solid and ocean tides, etc. We account for both observational and theory errors in our inverse model. We also discuss limitations of current satellite geometries in Euler pole inference.
+[In this work](https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025GL115137) (Liu et al., 2025, GRL), we use the spatial gradients of line-of-sight velocity fields over the Arabian Peninsula to constrain a common rigid rotation pole in a global reference frame. We correct for long-wavelength effects from troposphere, ionosphere, solid and ocean tides, etc. We account for both observational and theory errors in our inverse model. We also discuss limitations of current satellite geometries in Euler pole inference.
 
 This work extends the concept of inferring an internal reference frame to InSAR and highlights the potential of integrating InSAR with conventional networks for high-resolution plate motion models, especially in remote areas.
 
@@ -38,11 +52,17 @@ Water usage from the subsurface aquifers modulates the surface deformation. A de
 
 #### Dynamics of seismicicty
 
+
+![saf_clusters](assets/img/sciadv.abk1167-f2.jpg){:class="img-responsive"}
+
+
 ![saf_cartoon](assets/img/sciadv.abk1167-f3.jpg){:class="img-responsive"}
+
 
 Continental faults are paved with locked interfaces interleaved by sections that slip aseismically. The kinematics, derived from geodesy such as GPS and InSAR, often show a transitioning between fully-locked and fully-creeping sections. But since fault slips trigger earthquakes, can the earthuqake statistics tell us something about the fault behaviors?
 
 [This study](https://www.science.org/doi/full/10.1126/sciadv.abk1167), we find that in the central San Andreas Fault, the relative population of background earthquakes, those who do not exhibit temporal clustering, can serve as a proxy of fault coupling. Under this paradigm, the stronger fault coupling results in strong temporal clustering of seismicity, while lower fault coupling manifests in weaker temporal clustering, with repeating earthquakes as an end-member.
+
 
 #### Crustal deformation of caldera collapse
 
