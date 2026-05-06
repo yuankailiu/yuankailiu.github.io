@@ -4,53 +4,44 @@
 @import "jekyll-theme-minimal";
 
 
-/* 定義全域統一顏色變數 */
-$brand-color: #aa1414; /* 你的深紅色 */
-$hover-color: #e12d2d; /* 懸停時的亮紅色 */
+/* 定義顏色變數 */
+$brand-red: #aa1414;
+$link-blue: #0366d6; /* 標準 GitHub/Web 藍色 */
+$hover-red: #e12d2d;
 
-/* 1. 左側欄：網站標題 (Yuan-Kai Liu) */
-header h1 a {
-  color: $brand-color !important;
+/* 1. 左側欄：全體顏色統整為深紅 */
+/* 包含名字標題與導覽連結 */
+header h1 a,
+header ul a {
+  color: $brand-red !important;
+  font-weight: 500;
   text-decoration: none;
 }
 
-header h1 a:hover {
-  color: $hover-color !important;
-}
-
-/* 2. 左側欄：導覽連結 (About, Research, CV) */
-header ul a {
-  color: $brand-color !important;
-  font-weight: 500;
-}
-
+header h1 a:hover,
 header ul a:hover {
-  color: $hover-color !important;
+  color: $hover-red !important;
   text-decoration: underline;
 }
 
-/* 3. 右側欄：主標題 (Space geodesy x Tectonophysics) */
-section h1 {
-  color: $brand-color !important;
+/* 2. 右側正文標題：保持深紅 (News, Research topics 等) */
+section h1, section h2, section h3, section h4 {
+  color: $brand-red !important;
 }
 
-/* 4. 右側欄：所有子標題 (News, Research Interests, Research topics 等) */
-section h2, section h3, section h4, section h5 {
-  color: $brand-color !important;
-  margin-top: 1.5em;
-}
-
-/* 5. 右側欄：正文中的所有連結 (Google Scholar, GitHub, 論文連結) */
+/* 3. 右側正文連結：回歸預設藍色 */
+/* 這會影響 News 裡的連結、Google Scholar、GitHub 頁面連結等 */
 section a {
-  color: $brand-color !important;
+  color: $link-blue !important;
+  text-decoration: none;
 }
 
 section a:hover {
-  color: $hover-color !important;
+  color: #0056b3 !important; /* 稍深的藍色 */
   text-decoration: underline;
 }
 
-/* 6. 修復圖片下方描述文字 (Bosphorus Strait, 2017) 的顏色以保持低調 */
+/* 4. 側邊欄圖片描述文字：保持中性灰色 */
 header p {
   color: #666666 !important;
   font-size: 0.9em;

@@ -6,7 +6,9 @@ layout: default
 
 *   *   *
 
-**Postdoctoral Researcher | Stanford University**
+Postdoctoral Researcher | Stanford University
+
+*   *   *
 
 I am a geophysicist interested in how lithospheric processes and medium properties manifest as observable crustal deformation. My research integrates high-resolution spaceborne geodesy (primarily InSAR and GNSS) with seismological data to resolve the deformation continuum across diverse scales, from transient seismic cycles to long-term plate motion. I am interested in inverse problems that use optimization or stochastic sampling methods to infer the kinematics of faults, volcanoes, and plate rotations through analytical formulations and Boundary Element Modeling.
 
@@ -16,9 +18,9 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 
 
 
-> [My Google Scholar profile](https://scholar.google.com/citations?authuser=1&user=YCCuojgAAAAJ).
+[My Google Scholar profile](https://scholar.google.com/citations?authuser=1&user=YCCuojgAAAAJ).
 
-> [My GitHub page](https://github.com/yuankailiu).
+[My GitHub page](https://github.com/yuankailiu).
 
 ## News
 
@@ -69,8 +71,9 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 359 Mitchell Earth Sciences
 
 Stanford, CA 94305
+
 + Email: <liuyk@stanford.edu>, <ykliu.geo@icloud.com>
-+ Linkedin: https://www.linkedin.com/in/liuyk/
++ LinkedIn: <https://www.linkedin.com/in/liuyk/>
 + ORCID ID: <https://orcid.org/0000-0003-4032-9444>
 + ResearchGate: <https://www.researchgate.net/profile/Yuan-Kai-Liu>
 
