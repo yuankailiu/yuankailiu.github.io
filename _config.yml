@@ -54,3 +54,7 @@ plugins:
 
 show_downloads: False
 google_analytics:
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
