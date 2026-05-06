@@ -40,24 +40,24 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 ## Education
 *   *   *
 
-+ Ph.D., Geophysics, California Institute of Technology, 2019–2025
++ Ph.D., Geophysics, California Institute of Technology, 2019--2025
 	+ Thesis: [Space Geodetic Constraints on Plate Motion, Fault Creep, and Megathrust Coupling](https://thesis.caltech.edu/17795/)
 	+ Advisor: Mark Simons, Zach Ross
-+ Ph.D. Minor, Computational Science, California Institute of Technology, 2021–2025
-+ M.S. Earth Science and Engineering, King Abdullah University of Science and Technology, Saudi Arabia, 2016–2018
++ Ph.D. Minor, Computational Science, California Institute of Technology, 2021--2025
++ M.S. Earth Science and Engineering, King Abdullah University of Science and Technology, Saudi Arabia, 2016--2018
 	+ Thesis: Ground Deformation Related to Caldera Collapse and Ring-Fault Activity
 	+ Advisor: Sigurjón Jónsson
-+ B.S., Geology, National Taiwan University, Taiwan, 2010–2015
-+ B.Eng., Civil Engineering, National Taiwan University, Taiwan, 2011–2015
++ B.S., Geology, National Taiwan University, Taiwan, 2010--2015
++ B.Eng., Civil Engineering, National Taiwan University, Taiwan, 2011--2015
 
 
 ## Experience
 *   *   *
-+ 01/2026–present: Postdoc, Geophysics, Doerr School of Sustainability, Stanford University
++ 01/2026--present: Postdoc, Geophysics, Doerr School of Sustainability, Stanford University
 
-+ 08/2019–10/2025: Graduate researcher, [Caltech Seismological Laboratory](https://www.seismolab.caltech.edu/)
++ 08/2019--10/2025: Graduate researcher, [Caltech Seismological Laboratory](https://www.seismolab.caltech.edu/)
 
-+ 08/2016–07/2018: Master researcher, [Crustal deformation & InSAR group](https://cdi.kaust.edu.sa/), advised by Prof. [Sigurjón Jónsson](https://cdi.kaust.edu.sa/people/detail/sigurj%C3%B3n-j%C3%B3nsson), King Abdullah University of Science and Technology (KAUST, Saudi Arabia)
++ 08/2016--07/2018: Master researcher, [Crustal deformation & InSAR group](https://cdi.kaust.edu.sa/), advised by Prof. [Sigurjón Jónsson](https://cdi.kaust.edu.sa/people/detail/sigurj%C3%B3n-j%C3%B3nsson), King Abdullah University of Science and Technology (KAUST, Saudi Arabia)
 
 + 2015: Research assistant, Institute of Earth Sciences, Academia Sinica, Taipei, Taiwan
 
@@ -78,4 +78,4 @@ Stanford, CA 94305
 
 ![group_photo](assets/img/jpl_group_visit.jpeg){:class="img-responsive"}
 
-> Mark Simons' group members in front of JPL, 2022
+> Peak era of Simons' group members in front of JPL, 2022. Left to right are me, Lijun Zhu, Leonid Pereiaslov, Yujie Zheng, Alex Berne, Tobias Köhne, Yunjun Zhang. Hmmm, where were Ollie, Rishav, and Théa?

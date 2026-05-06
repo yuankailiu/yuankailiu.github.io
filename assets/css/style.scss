@@ -3,13 +3,55 @@
 
 @import "jekyll-theme-minimal";
 
-/* 修改左側/頂部標題 Yuan-Kai Liu 的顏色 */
+
+/* 定義全域統一顏色變數 */
+$brand-color: #aa1414; /* 你的深紅色 */
+$hover-color: #e12d2d; /* 懸停時的亮紅色 */
+
+/* 1. 左側欄：網站標題 (Yuan-Kai Liu) */
 header h1 a {
-  color: #aa1414 !important; /* 這裡換成你想要的顏色代碼 */
+  color: $brand-color !important;
   text-decoration: none;
 }
 
-/* 游標懸停時的顏色（可選） */
 header h1 a:hover {
-  color: #e12d2d !important;
+  color: $hover-color !important;
+}
+
+/* 2. 左側欄：導覽連結 (About, Research, CV) */
+header ul a {
+  color: $brand-color !important;
+  font-weight: 500;
+}
+
+header ul a:hover {
+  color: $hover-color !important;
+  text-decoration: underline;
+}
+
+/* 3. 右側欄：主標題 (Space geodesy x Tectonophysics) */
+section h1 {
+  color: $brand-color !important;
+}
+
+/* 4. 右側欄：所有子標題 (News, Research Interests, Research topics 等) */
+section h2, section h3, section h4, section h5 {
+  color: $brand-color !important;
+  margin-top: 1.5em;
+}
+
+/* 5. 右側欄：正文中的所有連結 (Google Scholar, GitHub, 論文連結) */
+section a {
+  color: $brand-color !important;
+}
+
+section a:hover {
+  color: $hover-color !important;
+  text-decoration: underline;
+}
+
+/* 6. 修復圖片下方描述文字 (Bosphorus Strait, 2017) 的顏色以保持低調 */
+header p {
+  color: #666666 !important;
+  font-size: 0.9em;
 }
