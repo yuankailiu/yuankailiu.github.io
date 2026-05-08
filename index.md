@@ -34,6 +34,8 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 
 [12/2025] I will be at the Subduction zone deformation session at AGU, New Orleans.
 
+--
+
 [10/2025] *I have defended my Ph.D. dissertation from the [Caltech Seismolab](https://www.seismolab.caltech.edu), under the mentorship of Profs. of [Mark Simons](http://web.gps.caltech.edu/~simons/) and [Zach Ross](http://web.gps.caltech.edu/~zross/). Check out [my thesis](https://thesis.caltech.edu/17795/).*
 
 
