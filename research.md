@@ -6,10 +6,6 @@ permalink: /research/
 
 # Research topics
 
-*   *   *
-
-> Seismic cycles, tectonic geodesy, InSAR, crustal deformation, earthquakes
-
 
 ### Interseismic Loading of the Peru-Chile Subduction Zone using InSAR and Bayesian Inference (in prep.)
 {: #chile-insar}
@@ -22,6 +18,7 @@ Using a decade of **Sentinel-1 InSAR data (2014--2025)** and Bayesian inference,
 
 Our wide-area dataset also captures long-wavelength deformation extending 400 km inland. These signals suggest that surface motion is influenced by deeper processes beyond simple interface locking, including intra-slab stresses and the tectonic shortening that drives Andean orogeny. This work bridges the gap between the transient behavior of the earthquake cycle and the long-term mechanical forces that build mountain ranges.
 
+<hr class="topic-divider">
 
 ### Inferring absolute plate rotation at GNSS-sparse region, using InSAR secular velocities
 {: #plate-rotation}
@@ -36,6 +33,8 @@ Plate motion models provide critical input to understanding lithospheric kinemat
 
 This work extends the concept of inferring an internal reference frame to InSAR and highlights the potential of integrating InSAR with conventional networks for high-resolution plate motion models, especially in remote areas.
 
+<hr class="topic-divider">
+
 ### Interseismic coupling along Dead Sea Transform - Gulf of Aqaba (in prep.)
 {: #aqaba}
 
@@ -46,6 +45,7 @@ The Gulf of Aqaba is the most seismically active region between Egypt and Saudi 
 Previous GPS block model predicts left-lateral and opening motion along central and southern Dead Sea fault. But most of past measurements are based on sparse ground measurements from mostly campaign GPS, and limited burst-overlap interferometry. We try to deconvolve the secular current deformation features in these segments from spatialtemporally dense Sentinel-1 measurements.
 
 
+<hr class="topic-divider">
 
 #### Crustal rebound induced by aquifer unloading (in prep.)
 {: #sirhan}
@@ -53,6 +53,8 @@ Previous GPS block model predicts left-lateral and opening motion along central 
 ![sirhan_uplift](assets/img/sirhan_uplift.jpg){:style="width: 85%; height: auto;"}
 
 Water usage from the subsurface aquifers modulates the surface deformation. A decade of InSAR on ground movement in the [Sirhan Basin](https://earthobservatory.nasa.gov/images/77900/crop-circles-in-the-desert) (Saudi Arabia-Jordan border) may show a similar to [studies in the Los Angeles Basin](https://www.caltech.edu/about/news/animation-based-satellite-data-shows-socal-breathing-water-83080), Southern California. This pattern shows a trend of uplift, which we want to understand better. We want understand how much the deformation is elastic and how much is inelastic. This work is crucial for understanding the impact of groundwater management in the region and ensuring sustainable use of these vital resources.
+
+<hr class="topic-divider">
 
 #### Dynamics of seismicity
 {: #safseismicity}
@@ -67,6 +69,8 @@ Continental faults are paved with locked interfaces interleaved by sections that
 
 [This study](https://www.science.org/doi/full/10.1126/sciadv.abk1167), we find that in the central San Andreas Fault, the relative population of background earthquakes, those who do not exhibit temporal clustering, can serve as a proxy of fault coupling. Under this paradigm, the stronger fault coupling results in strong temporal clustering of seismicity, while lower fault coupling manifests in weaker temporal clustering, with repeating earthquakes as an end-member.
 
+
+<hr class="topic-divider">
 
 #### Crustal deformation of caldera collapse
 {: #calderaringfault}

@@ -8,13 +8,15 @@ body {
     background-color: #fffff8 !important; /* Tufte 經典米白 */
     color: #111 !important;
     line-height: 1.6 !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .wrapper {
     display: flex !important;
     flex-direction: row !important;
-    max-width: 100vw !important;
-    width: 100vw !important;
+    max-width: 100% !important;
+    width: 100% !important;
     margin: 0 !important;
     padding: 4rem 0 !important;
     gap: 0 !important;
@@ -46,6 +48,24 @@ section {
     float: none !important;
 }
 
+/* --- 顏色設定：Stanford Cardinal Red --- */
+/* 包含名字連結、正文標題、Research 頁面標題 */
+header h1 a,
+section h1,
+section h2,
+section h3,
+section h4 {
+    color: #8C1515 !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+}
+
+/* 確保名字連結在 Hover 時不會變色太突兀 */
+header h1 a:hover {
+    text-decoration: none !important;
+    color: #ba2424 !important;
+}
+
 /* 標題與字體大小 */
 h1 { font-size: 32px !important; }
 h2 { font-size: 26px !important; border-bottom: 1px solid #eee !important; padding-bottom: 5px; margin-top: 2.5rem !important; }
@@ -53,7 +73,7 @@ h3 { font-size: 20px !important; }
 
 /* 連結：學術藍 */
 header a, section a {
-    color: #0000ee !important;
+    color: #0242f1 !important;
     text-decoration: underline !important;
 }
 
