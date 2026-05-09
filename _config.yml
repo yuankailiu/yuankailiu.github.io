@@ -21,14 +21,16 @@
 title: Yuan-Kai Liu
 logo: /assets/img/caltech-retouch.jpg
 description: Homepage
-email: liuyk@stanford.edu
+photo_caption: "Moore Walk, Caltech, 2025"
 # description: Moore Walk, Caltech, 2025
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
+email: liuyk@stanford.edu
 twitter_username: yuan_kai_liu
 github_username: yuankailiu
 linkedin_username: liuyk
 orcid: 0000-0003-4032-9444
+google_scholar_url: "https://scholar.google.com/citations?user=YCCuojgAAAAJ"
 
 # Build settings
 # theme: jekyll-theme-minimal

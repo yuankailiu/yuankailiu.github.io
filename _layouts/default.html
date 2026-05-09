@@ -24,8 +24,12 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <!-- 照片說明文字 -->
-        <p style="margin-bottom: 20px; font-size: 0.9em; color: #666;">{{ site.description | default: site.github.project_tagline }}</p>
+        <!-- 這裡顯示真正的照片說明 (Photo Caption) -->
+        {% if site.photo_caption %}
+          <p style="margin-top: -10px; margin-bottom: 20px; font-size: 0.85rem; color: #777; font-style: italic;">
+            {{ site.photo_caption }}
+          </p>
+        {% endif %}
 
         <!-- 1. 導覽連結 (移動到上方，調大字體) -->
         <nav style="margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
@@ -35,17 +39,33 @@
         </nav>
 
         <!-- 2. 聯絡資訊 (移動到下方) -->
-        <div class="contact-links" style="font-size: 1.05em; line-height: 1.8;">
+        <div class="contact-links" style="font-size: 17px; line-height: 1.8; margin-top: 20px;">
+
+          <!-- Email: 直接顯示地址 -->
           {% if site.email %}
-            <a href="mailto:{{ site.email }}">Email</a><br>
+            <p style="margin: 0;">Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
           {% endif %}
-          <a href="https://scholar.google.com/citations?user=YCCuojgAAAAJ" target="_blank">Google Scholar</a><br>
+
+          <!-- Google Scholar -->
+          {% if site.google_scholar_url %}
+            <p style="margin: 0;"><a href="{{ site.google_scholar_url }}" target="_blank">Google Scholar</a></p>
+          {% endif %}
+
+          <!-- GitHub -->
           {% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a><br>
+            <p style="margin: 0;"><a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a></p>
           {% endif %}
-          {% if site.twitter_username %}
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
+
+          <!-- LinkedIn 連結 -->
+          {% if site.linkedin_username %}
+            <p style="margin: 0;"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a></p>
           {% endif %}
+
+          <!-- ORCID -->
+          {% if site.orcid %}
+            <p style="margin: 0;"><a href="https://orcid.org/{{ site.orcid }}" target="_blank">ORCID</a></p>
+          {% endif %}
+
         </div>
 
         {% if site.show_downloads %}
