@@ -7,7 +7,7 @@ permalink: /research/
 # Research topics
 
 
-### Interseismic Loading of the Peru-Chile Subduction Zone using InSAR and Bayesian Inference (in prep.)
+## Interseismic Loading of the Peru-Chile Subduction Zone using InSAR and Bayesian Inference (in prep.)
 {: #chile-insar}
 
 ![chile-datamodel](assets/img/chile-datamodel.jpg){:style="width: 95%; height: auto;"}
@@ -20,7 +20,7 @@ Our wide-area dataset also captures long-wavelength deformation extending 400 km
 
 <hr class="topic-divider">
 
-### Inferring absolute plate rotation at GNSS-sparse region, using InSAR secular velocities
+## Inferring absolute plate rotation at GNSS-sparse region, using InSAR secular velocities
 {: #plate-rotation}
 
 ![grl-2024-insarEuler](assets/img/grl-2024-insarEuler.jpg){:style="width: 80%; height: auto;"}
@@ -35,7 +35,7 @@ This work extends the concept of inferring an internal reference frame to InSAR 
 
 <hr class="topic-divider">
 
-### Interseismic coupling along Dead Sea Transform - Gulf of Aqaba (in prep.)
+## Interseismic coupling along Dead Sea Transform - Gulf of Aqaba (in prep.)
 {: #aqaba}
 
 ![aqaba_profile](assets/img/aqaba_profile.jpg){:style="width: 85%; height: auto;"}
@@ -47,7 +47,7 @@ Previous GPS block model predicts left-lateral and opening motion along central 
 
 <hr class="topic-divider">
 
-#### Crustal rebound induced by aquifer unloading (in prep.)
+## Crustal rebound induced by aquifer unloading (in prep.)
 {: #sirhan}
 
 ![sirhan_uplift](assets/img/sirhan_uplift.jpg){:style="width: 85%; height: auto;"}
@@ -56,7 +56,7 @@ Water usage from the subsurface aquifers modulates the surface deformation. A de
 
 <hr class="topic-divider">
 
-#### Dynamics of seismicity
+## Dynamics of seismicity
 {: #safseismicity}
 
 ![sciadv.abk1167-f2](assets/img/sciadv.abk1167-f2.jpg){:style="width: 85%; height: auto;"}
@@ -72,7 +72,7 @@ Continental faults are paved with locked interfaces interleaved by sections that
 
 <hr class="topic-divider">
 
-#### Crustal deformation of caldera collapse
+## Crustal deformation of caldera collapse
 {: #calderaringfault}
 
 ![epsl-2019-caldera](assets/img/epsl-2019-caldera.jpg){:style="width: 70%; height: auto;"}
