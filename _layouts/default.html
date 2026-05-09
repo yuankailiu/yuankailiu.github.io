@@ -46,6 +46,20 @@
             <p style="margin: 0;">Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
           {% endif %}
 
+          <!-- 地址顯示 -->
+          {% if site.address %}
+            <p style="margin: 10px 0 0 0; color: #444; line-height: 1.4;">
+              {{ site.address | replace: ", ", "<br>" }}
+            </p>
+          {% endif %}
+
+          <!-- 電話顯示 -->
+          {% if site.phone %}
+            <p style="margin: 5px 0 0 0; color: #444;">Tel: {{ site.phone }}</p>
+          {% endif %}
+
+          <hr style="border: 0; border-top: 1px solid #eee; margin: 15px 0;">
+
           <!-- Google Scholar -->
           {% if site.google_scholar_url %}
             <p style="margin: 0;"><a href="{{ site.google_scholar_url }}" target="_blank">Google Scholar</a></p>

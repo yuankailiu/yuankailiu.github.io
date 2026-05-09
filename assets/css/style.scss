@@ -29,8 +29,8 @@ header {
 }
 
 header img {
-    width: 150px !important; /* 固定寬度以確保圓形比例正確 */
-    height: 150px !important; /* 固定高度 */
+    width: 180px !important; /* 固定寬度以確保圓形比例正確 */
+    height: 180px !important; /* 固定高度 */
     object-fit: cover !important; /* 確保圖片不變形地填充圓形 */
     border-radius: 50% !important; /* 50% 為正圓, 15% 為圓角矩形 */
     filter: none !important;
