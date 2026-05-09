@@ -50,14 +50,18 @@ section {
 
 /* --- 顏色設定：Stanford Cardinal Red --- */
 /* 包含名字連結、正文標題、Research 頁面標題 */
-header h1 a,
+header h1 a {
+    color: #8C1515 !important;
+    font-weight: 700 !important; /* 強制粗體 */
+    font-style: italic !important;
+}
 section h1,
 section h2,
 section h3,
 section h4 {
-    color: #8C1515 !important;
-    font-weight: 400 !important;
-    font-style: italic !important;
+    color: #000000 !important;
+    font-weight: 600 !important; /* 強制粗體 */
+    font-style: normal !important; /* 確保非斜體 */
 }
 
 /* 確保名字連結在 Hover 時不會變色太突兀 */

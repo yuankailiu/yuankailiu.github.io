@@ -3,7 +3,7 @@ layout: default
 title: Yuan-Kai Liu
 ---
 
-# Space geodesy x Tectonophysics
+# Space geodesy · Tectonics · Crustal deformation
 
 *   *   *
 
