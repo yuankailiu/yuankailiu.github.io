@@ -1,48 +1,98 @@
----
----
-
 @import "jekyll-theme-minimal";
 
+/* --- Tufte-Inspired Academic Style --- */
 
-/* 定義顏色變數 */
-$brand-red: #aa1414;
-$link-blue: #0366d6; /* 標準 GitHub/Web 藍色 */
-$hover-red: #e12d2d;
-
-/* 1. 左側欄：全體顏色統整為深紅 */
-/* 包含名字標題與導覽連結 */
-header h1 a,
-header ul a {
-  color: $brand-red !important;
-  font-weight: 500;
-  text-decoration: none;
+body {
+  /* 優先載入經典襯線字體，模仿物理學報與 Tufte 樣式 */
+  font-family: "Et-Book", "Palatino Linotype", "Palatino", "Georgia", "Times New Roman", serif;
+  background-color: #fffff8; /* 略微米白，具備紙張質感 */
+  color: #111;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
 }
 
-header h1 a:hover,
-header ul a:hover {
-  color: $hover-red !important;
-  text-decoration: underline;
+/* 重新定義 Wrapper 為 Flex 佈局 */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1300px; /* 增加總寬度，讓 Full Page 感更強 */
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  gap: 50px;
 }
 
-/* 2. 右側正文標題：保持深紅 (News, Research topics 等) */
-section h1, section h2, section h3, section h4 {
-  color: $brand-red !important;
+/* 左側 20%：固定身分欄 */
+header {
+  flex: 0 0 20%;
+  position: sticky;
+  top: 4rem;
+  height: fit-content;
+  width: auto !important;
+  float: none !important;
+  margin: 0 !important;
+  text-align: left;
 }
 
-/* 3. 右側正文連結：回歸預設藍色 */
-/* 這會影響 News 裡的連結、Google Scholar、GitHub 頁面連結等 */
+header img {
+  width: 100% !important;
+  border-radius: 0 !important; /* 去除圓角，回歸原始風格 */
+  filter: grayscale(100%); /* 黑白濾鏡，增加嚴肅學術感 */
+  border: 0.5px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  font-size: 1.5rem !important;
+  margin-top: 0;
+}
+
+/* 右側 80%：主要內容區 */
+section {
+  flex: 1;
+  width: auto !important;
+  float: none !important;
+  padding-left: 20px;
+}
+
+/* --- 文字細節調整 --- */
+
+h1, h2, h3 {
+  color: #111 !important;
+  font-weight: 400;
+  font-style: italic; /* Tufte 式標題 */
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2rem;
+  margin-top: 2.5rem;
+}
+
+/* 連結：經典學術藍與黃色標註效果 */
 section a {
-  color: $link-blue !important;
-  text-decoration: none;
+  color: #0000ee !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 section a:hover {
-  color: #0056b3 !important; /* 稍深的藍色 */
-  text-decoration: underline;
+  background-color: #fffdc0; /* 滑鼠懸停時的螢光筆標註感 */
+  color: #000 !important;
 }
 
-/* 4. 側邊欄圖片描述文字：保持中性灰色 */
-header p {
-  color: #666666 !important;
-  font-size: 0.9em;
+/* 列表間距與行高 */
+li {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+/* 手機適應 */
+@media screen and (max-width: 850px) {
+  .wrapper {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+  }
+  header {
+    position: static;
+    flex: none;
+    width: 100% !important;
+  }
 }
