@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
     <meta name="google-site-verification" content="kAlgNsucLdipx6aMUUAG8seQTtYoPJmnQYBYc5n6XSE" />
 
     {% seo %}
@@ -17,43 +17,43 @@
   <body>
     <div class="wrapper">
       <header>
-        <!-- 點擊名字回到首頁，確保連結正確 -->
+        <!-- Click name to return to homepage, ensures correct link -->
         <h1><a href="{{ site.baseurl }}/">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <!-- 這裡顯示真正的照片說明 (Photo Caption) -->
+        <!-- Display photo caption -->
         {% if site.photo_caption %}
           <p style="margin-top: -10px; margin-bottom: 20px; font-size: 0.85rem; color: #777; font-style: italic;">
             {{ site.photo_caption }}
           </p>
         {% endif %}
 
-        <!-- 1. 導覽連結 (移動到上方，調大字體) -->
+        <!-- 1. Navigation links (moved to top, larger font) -->
         <nav style="margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
           <p style="margin: 8px 0;"><a href="{{ site.baseurl }}/" style="font-weight: bold; font-size: 1.15em;">About</a></p>
           <p style="margin: 8px 0;"><a href="{{ site.baseurl }}/research/" style="font-weight: bold; font-size: 1.15em;">Research</a></p>
           <p style="margin: 8px 0;"><a href="{{ "/assets/img/ykliu_cv_202605.pdf" | relative_url }}" style="font-weight: bold; font-size: 1.15em;">CV</a></p>
         </nav>
 
-        <!-- 2. 聯絡資訊 (移動到下方) -->
+        <!-- 2. Contact information (moved to bottom) -->
         <div class="contact-links" style="font-size: 17px; line-height: 1.8; margin-top: 20px;">
 
-          <!-- Email: 直接顯示地址 -->
+          <!-- Email: display address directly -->
           {% if site.email %}
             <p style="margin: 0;">Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
           {% endif %}
 
-          <!-- 地址顯示 -->
+          <!-- Address display -->
           {% if site.address %}
             <p style="margin: 10px 0 0 0; color: #444; line-height: 1.4;">
               {{ site.address | replace: ", ", "<br>" }}
             </p>
           {% endif %}
 
-          <!-- 電話顯示 -->
+          <!-- Phone display -->
           {% if site.phone %}
             <p style="margin: 5px 0 0 0; color: #444;">Tel: {{ site.phone }}</p>
           {% endif %}
@@ -70,7 +70,7 @@
             <p style="margin: 0;"><a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a></p>
           {% endif %}
 
-          <!-- LinkedIn 連結 -->
+          <!-- LinkedIn link -->
           {% if site.linkedin_username %}
             <p style="margin: 0;"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a></p>
           {% endif %}
@@ -112,5 +112,23 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+
+    <!-- Mobile zoom fix - prevents zoom jump on touch release -->
+    <script>
+    (function() {
+      // Fix for mobile zoom jump on touch release
+      if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        // Prevent font boosting that causes zoom jumps
+        document.documentElement.style.setProperty('-webkit-text-size-adjust', '100%', 'important');
+        document.documentElement.style.setProperty('text-size-adjust', '100%', 'important');
+
+        // Ensure stable viewport behavior
+        var viewport = document.querySelector('meta[name=viewport]');
+        if (viewport) {
+          viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=10.0, user-scalable=yes, viewport-fit=cover');
+        }
+      }
+    })();
+    </script>
   </body>
 </html>

@@ -126,3 +126,11 @@ header p, header nav a, header div.contact-links p {
         margin-top: 1.5rem !important;
     }
 }
+
+/* Prevent unwanted zoom recalculation on mobile */
+@media (max-width: 768px) {
+    * {
+        -webkit-text-size-adjust: 100% !important;
+        text-size-adjust: 100% !important;
+    }
+}
