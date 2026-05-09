@@ -28,9 +28,12 @@ twitter_username: yuan_kai_liu
 github_username: yuankailiu
 
 # Build settings
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme # 必須加入這行來驅動遠端主題
 
 # Exclude from processing.
 # The following items will not be processed, by default.
