@@ -3,7 +3,7 @@ layout: default
 title: Yuan-Kai Liu
 ---
 
-# Space geodesy · Tectonics · Crustal deformation
+# Space geodesy · Lithospheric deformation
 
 *   *   *
 
@@ -21,7 +21,7 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 
 [03/2026] Presented my [recent work in Peru-Chile subduction zone](/research/#chile-insar) at the [SZ4D conference](https://www.sz4d.org/events/2026-sz4d-science-community-meeting) at Long Beach, CA.
 
-[01/2026] I start my postdoc at **Geophysics, Stanford**, working with Prof. [Howard Zebker](https://ee.stanford.edu/~zebker/index.html) to advance on open-access ground displacement products for volcano monitoring globally using Sentinel-1 and NISAR data.
+[01/2026] I start my postdoc at **Geophysics, Stanford**, working with Prof. [Howard Zebker](https://ee.stanford.edu/~zebker/index.html) to advance on open-access ground displacement products for volcano monitoring globally using Sentinel-1 and NISAR data. I am also working to Prof. [Rosemary Knight](https://sustainability.stanford.edu/people/rosemary-knight) to explore the capability of InSAR in our understanding of surface and subsurface hydrological processes.
 
 [12/2025] I will be at the Subduction zone deformation session at AGU, New Orleans.
 

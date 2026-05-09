@@ -5,7 +5,7 @@
 body {
     font-size: 18px !important;
     font-family: "Et-Book", "Palatino Linotype", "Palatino", "Georgia", serif !important;
-    background-color: #fffff8 !important; /* Tufte 經典米白 */
+    background-color: #fffff8 !important; /* Tufte classic off-white */
     color: #111 !important;
     line-height: 1.6 !important;
     width: 100% !important;
@@ -22,7 +22,7 @@ body {
     gap: 0 !important;
 }
 
-/* 左側欄：18% */
+/* Left sidebar: 18% */
 header {
     flex: 0 0 18% !important;
     padding-left: 3% !important;
@@ -31,16 +31,16 @@ header {
 }
 
 header img {
-    width: 180px !important; /* 固定寬度以確保圓形比例正確 */
-    height: 180px !important; /* 固定高度 */
-    object-fit: cover !important; /* 確保圖片不變形地填充圓形 */
-    border-radius: 50% !important; /* 50% 為正圓, 15% 為圓角矩形 */
+    width: 180px !important; /* Fixed width to maintain circular proportions */
+    height: 180px !important; /* Fixed height */
+    object-fit: cover !important; /* Ensures image fills circle without distortion */
+    border-radius: 50% !important; /* 50% for perfect circle, 15% for rounded rectangle */
     filter: none !important;
     border: 1px solid #eee !important;
     margin-bottom: 15px !important;
 }
 
-/* 右側正文：62% (右端會留下約 20% 的空白) */
+/* Main content: 62% (leaves ~20% whitespace on the right) */
 section {
     flex: 0 0 62% !important;
     padding-left: 60px !important;
@@ -48,38 +48,38 @@ section {
     float: none !important;
 }
 
-/* --- 顏色設定：Stanford Cardinal Red --- */
-/* 包含名字連結、正文標題、Research 頁面標題 */
+/* --- Color scheme: Stanford Cardinal Red --- */
+/* Includes name link, body titles, Research page titles */
 header h1 a {
     color: #9c1414 !important;
-    font-weight: 600 !important; /* 強制粗體 */
+    font-weight: 600 !important; /* Bold */
     font-style: normal !important;
 }
 section h1 {
     color: #8C1515 !important;
-    font-weight: 700 !important; /* 強制粗體 */
+    font-weight: 700 !important; /* Bold */
     font-style: italic !important;
 }
 section h2,
 section h3,
 section h4 {
     color: #000000 !important;
-    font-weight: 600 !important; /* 強制粗體 */
-    font-style: normal !important; /* 確保非斜體 */
+    font-weight: 600 !important; /* Bold */
+    font-style: normal !important; /* Ensures non-italic */
 }
 
-/* 確保名字連結在 Hover 時不會變色太突兀 */
+/* Prevents name link from changing color too drastically on hover */
 header h1 a:hover {
     text-decoration: none !important;
     color: #ba2424 !important;
 }
 
-/* 標題與字體大小 */
+/* Heading font sizes */
 h1 { font-size: 32px !important; }
 h2 { font-size: 26px !important; border-bottom: 1px solid #eee !important; padding-bottom: 5px; margin-top: 2.5rem !important; }
 h3 { font-size: 20px !important; }
 
-/* 連結：學術藍 */
+/* Links: academic blue */
 header a, section a {
     color: #0242f1 !important;
     text-decoration: underline !important;
@@ -89,8 +89,40 @@ section a:hover {
     background-color: #fffdc0 !important;
 }
 
-/* 側邊欄細節字體 17px */
+/* Sidebar detail font 17px */
 header p, header nav a, header div.contact-links p {
     font-size: 17px !important;
     margin-bottom: 5px !important;
+}
+
+/* === Mobile responsive addition (kept minimal) === */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column !important;
+        padding: 2rem 0 !important;
+    }
+
+    header {
+        flex: auto !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        position: relative !important;
+        top: 0 !important;
+        text-align: center !important;
+    }
+
+    header img {
+        width: 140px !important;
+        height: 140px !important;
+    }
+
+    section {
+        flex: auto !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    h2 {
+        margin-top: 1.5rem !important;
+    }
 }

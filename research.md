@@ -6,6 +6,8 @@ permalink: /research/
 
 # Research topics
 
+For my published works, please refer to my [Google Scholar page]({{ site.google_scholar_url }}).
+
 
 ## Interseismic Loading of the Peru-Chile Subduction Zone using InSAR and Bayesian Inference (in prep.)
 {: #chile-insar}
@@ -35,26 +37,6 @@ This work extends the concept of inferring an internal reference frame to InSAR 
 
 <hr class="topic-divider">
 
-## Interseismic coupling along Dead Sea Transform - Gulf of Aqaba (in prep.)
-{: #aqaba}
-
-![aqaba_profile](assets/img/aqaba_profile.jpg){:style="width: 85%; height: auto;"}
-
-The Gulf of Aqaba is the most seismically active region between Egypt and Saudi Arabia. The gulf hosts dense seismicity near the bathymetric-mapped fault structures. Several large earthquakes and prolific swarms were recorded in the past, including the [1995 M 7.3 Nuweiba Earthquake](https://www.ipgp.fr/~klinger/web_Yann/papiers/klinger_GRL2000.pdf). One key question to answer is whether the southern Dead Sea fault is creep. This will help to understand the fault shallow slip deficit, strain accumulation, and the associated seismic hazard on the new megacity, [NEOM](https://www.neom.com/en-us).
-
-Previous GPS block model predicts left-lateral and opening motion along central and southern Dead Sea fault. But most of past measurements are based on sparse ground measurements from mostly campaign GPS, and limited burst-overlap interferometry. We try to deconvolve the secular current deformation features in these segments from spatialtemporally dense Sentinel-1 measurements.
-
-
-<hr class="topic-divider">
-
-## Crustal rebound induced by aquifer unloading (in prep.)
-{: #sirhan}
-
-![sirhan_uplift](assets/img/sirhan_uplift.jpg){:style="width: 85%; height: auto;"}
-
-Water usage from the subsurface aquifers modulates the surface deformation. A decade of InSAR on ground movement in the [Sirhan Basin](https://earthobservatory.nasa.gov/images/77900/crop-circles-in-the-desert) (Saudi Arabia-Jordan border) may show a similar to [studies in the Los Angeles Basin](https://www.caltech.edu/about/news/animation-based-satellite-data-shows-socal-breathing-water-83080), Southern California. This pattern shows a trend of uplift, which we want to understand better. We want understand how much the deformation is elastic and how much is inelastic. This work is crucial for understanding the impact of groundwater management in the region and ensuring sustainable use of these vital resources.
-
-<hr class="topic-divider">
 
 ## Dynamics of seismicity
 {: #safseismicity}
@@ -81,3 +63,24 @@ Caldera is a complicated volcanic system with magmatic chambers, dikes, boundary
 
 [In this study](https://www.sciencedirect.com/science/article/pii/S0012821X19304765?via%3Dihub), we use analog sandbox experiments and boundary element modeling to reproduce this geodetic observation (e.g., from InSAR). In a piston-like caldera collapse system, the development of ring faults localizes the subsidence progressively as it propagates toward ground surface. Hence, overlooking the ring-fault activity in a collapse process can lead to inappropriate model choices (vertically stacking magmatic presure sources), and the incorrect estimations of the volume changes of magma reservoir.
 
+
+## Interseismic coupling along Dead Sea Transform - Gulf of Aqaba (in prep.)
+{: #aqaba}
+
+![aqaba_profile](assets/img/aqaba_profile.jpg){:style="width: 85%; height: auto;"}
+
+The Gulf of Aqaba is the most seismically active region between Egypt and Saudi Arabia. The gulf hosts dense seismicity near the bathymetric-mapped fault structures. Several large earthquakes and prolific swarms were recorded in the past, including the [1995 M 7.3 Nuweiba Earthquake](https://www.ipgp.fr/~klinger/web_Yann/papiers/klinger_GRL2000.pdf). One key question to answer is whether the southern Dead Sea fault is creep. This will help to understand the fault shallow slip deficit, strain accumulation, and the associated seismic hazard on the new megacity, [NEOM](https://www.neom.com/en-us).
+
+Previous GPS block model predicts left-lateral and opening motion along central and southern Dead Sea fault. But most of past measurements are based on sparse ground measurements from mostly campaign GPS, and limited burst-overlap interferometry. We try to deconvolve the secular current deformation features in these segments from spatialtemporally dense Sentinel-1 measurements.
+
+<hr class="topic-divider">
+
+
+## Crustal rebound induced by aquifer unloading (in prep.)
+{: #sirhan}
+
+![sirhan_uplift](assets/img/sirhan_uplift.jpg){:style="width: 85%; height: auto;"}
+
+Water usage from the subsurface aquifers modulates the surface deformation. A decade of InSAR on ground movement in the [Sirhan Basin](https://earthobservatory.nasa.gov/images/77900/crop-circles-in-the-desert) (Saudi Arabia-Jordan border) may show a similar to [studies in the Los Angeles Basin](https://www.caltech.edu/about/news/animation-based-satellite-data-shows-socal-breathing-water-83080), Southern California. This pattern shows a trend of uplift, which we want to understand better. We want understand how much the deformation is elastic and how much is inelastic. This work is crucial for understanding the impact of groundwater management in the region and ensuring sustainable use of these vital resources.
+
+<hr class="topic-divider">
