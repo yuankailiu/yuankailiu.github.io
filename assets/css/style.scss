@@ -45,11 +45,11 @@ header img {
     border: 1px solid #eee !important;
 }
 
-/* 右側欄：65% 寬度 */
-/* 佈局計算：左 18% + 內間隔 + 內容 65% = 總計約 85% */
-/* 剩下的 15% 會形成右側自然的 Margin */
+/* 右側欄：60% 寬度 */
+/* 佈局計算：左 15% + 內間隔 + 內容 60% = 總計約 75% */
+/* 剩下的 25% 會形成右側自然的 Margin */
 section {
-    flex: 0 0 65% !important;
+    flex: 0 0 60% !important;
     width: auto !important;
     float: none !important;
     padding-left: 60px !important; /* 加大內容與導覽欄的間距 */

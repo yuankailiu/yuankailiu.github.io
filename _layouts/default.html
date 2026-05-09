@@ -17,38 +17,39 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <!-- 點擊名字回到首頁，確保連結正確 -->
+        <h1><a href="{{ site.baseurl }}/">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <!-- 照片說明文字 -->
-        <p style="margin-bottom: 20px;">{{ site.description | default: site.github.project_tagline }}</p>
+        <p style="margin-bottom: 20px; font-size: 0.9em; color: #666;">{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- 聯絡資訊 (New Contact Section) -->
-        <div class="contact-links" style="margin-bottom: 30px; font-size: 0.95em; line-height: 1.6;">
+        <!-- 1. 導覽連結 (移動到上方，調大字體) -->
+        <nav style="margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
+          <p style="margin: 8px 0;"><a href="{{ site.baseurl }}/" style="font-weight: bold; font-size: 1.15em;">About</a></p>
+          <p style="margin: 8px 0;"><a href="{{ site.baseurl }}/research/" style="font-weight: bold; font-size: 1.15em;">Research</a></p>
+          <p style="margin: 8px 0;"><a href="{{ "/assets/img/ykliu_cv_202605.pdf" | relative_url }}" style="font-weight: bold; font-size: 1.15em;">CV</a></p>
+        </nav>
+
+        <!-- 2. 聯絡資訊 (移動到下方) -->
+        <div class="contact-links" style="font-size: 1.05em; line-height: 1.8;">
           {% if site.email %}
             <a href="mailto:{{ site.email }}">Email</a><br>
           {% endif %}
-          <a href="https://scholar.google.com/citations?user=YCCuojgAAAAJ">Google Scholar</a><br>
+          <a href="https://scholar.google.com/citations?user=YCCuojgAAAAJ" target="_blank">Google Scholar</a><br>
           {% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username }}">GitHub</a><br>
+            <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a><br>
           {% endif %}
           {% if site.twitter_username %}
-            <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
           {% endif %}
         </div>
 
-        <!-- 導覽連結 (Cleaned up from original) -->
-        <nav style="margin-top: 20px;">
-          <p><a href="{{ "/" | relative_url }}" style="font-weight: bold;">About</a></p>
-          <p><a href="{{ "/research/" | relative_url }}" style="font-weight: bold;">Research</a></p>
-          <p><a href="{{ "/assets/img/ykliu_cv_202605.pdf" | relative_url }}" style="font-weight: bold;">CV</a></p>
-        </nav>
-
         {% if site.show_downloads %}
-        <ul class="downloads">
+        <ul class="downloads" style="margin-top: 30px;">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
           <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
