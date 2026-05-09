@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="kAlgNsucLdipx6aMUUAG8seQTtYoPJmnQYBYc5n6XSE" />
 
-{% seo %}
+    {% seo %}
+
     <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -22,17 +23,29 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <!-- 照片說明文字 -->
+        <p style="margin-bottom: 20px;">{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+        <!-- 聯絡資訊 (New Contact Section) -->
+        <div class="contact-links" style="margin-bottom: 30px; font-size: 0.95em; line-height: 1.6;">
+          {% if site.email %}
+            <a href="mailto:{{ site.email }}">Email</a><br>
+          {% endif %}
+          <a href="https://scholar.google.com/citations?user=YCCuojgAAAAJ">Google Scholar</a><br>
+          {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">GitHub</a><br>
+          {% endif %}
+          {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+          {% endif %}
+        </div>
 
-        {% if site.github.is_user_page %}
-        <p><font size="+1"><a href="https://yuankailiu.github.io/">About</a></font></p>
-        <p><font size="+1"><a href="/research/">Research</a></font></p>
-        <p><font size="+1"><a href="/assets/img/ykliu_cv_202605.pdf">CV</a></font></p>
-        {% endif %}
+        <!-- 導覽連結 (Cleaned up from original) -->
+        <nav style="margin-top: 20px;">
+          <p><a href="{{ "/" | relative_url }}" style="font-weight: bold;">About</a></p>
+          <p><a href="{{ "/research/" | relative_url }}" style="font-weight: bold;">Research</a></p>
+          <p><a href="{{ "/assets/img/ykliu_cv_202605.pdf" | relative_url }}" style="font-weight: bold;">CV</a></p>
+        </nav>
 
         {% if site.show_downloads %}
         <ul class="downloads">
@@ -42,19 +55,18 @@
         </ul>
         {% endif %}
       </header>
+
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
+
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Research brief"
+title: "Research page"
 permalink: /research/
 ---
 
@@ -68,7 +68,7 @@ Continental faults are paved with locked interfaces interleaved by sections that
 
 ![insar_euler](assets/img/epsl-2019-caldera.jpg){:style="width: 80%; height: auto;"}
 
-Caldera is a complicated volcanic system with magmatic chambers, dikes, boundary faults, etc. Crustal deformation of subsiding calderas can be complex, too. Deformations from the [Wolf Caldera in Galápagos](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GL069820) and the Axial seamount in the Pacific Ocean show a pattern composed of a broad deflation across the entire volcanic edifice and of a time-dependent localized subsidence signal focused within the caldera. 
+Caldera is a complicated volcanic system with magmatic chambers, dikes, boundary faults, etc. Crustal deformation of subsiding calderas can be complex, too. Deformations from the [Wolf Caldera in Galápagos](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GL069820) and the Axial seamount in the Pacific Ocean show a pattern composed of a broad deflation across the entire volcanic edifice and of a time-dependent localized subsidence signal focused within the caldera.
 
 [In this study](https://www.sciencedirect.com/science/article/pii/S0012821X19304765?via%3Dihub), we use analog sandbox experiments and boundary element modeling to reproduce this geodetic observation (e.g., from InSAR). In a piston-like caldera collapse system, the development of ring faults localizes the subsidence progressively as it propagates toward ground surface. Hence, overlooking the ring-fault activity in a collapse process can lead to inappropriate model choices (vertically stacking magmatic presure sources), and the incorrect estimations of the volume changes of magma reservoir.
 

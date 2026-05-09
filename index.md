@@ -7,9 +7,8 @@ title: Yuan-Kai Liu
 
 *   *   *
 
-Postdoctoral Researcher | **Stanford University**
-
-*   *   *
+## About me
+I am a postdoctoral researcher at Department of Geophysics, Doerr School of Sustainability, Stanford University.
 
 I am a geophysicist interested in how lithospheric processes and medium properties manifest as observable crustal deformation. My research integrates high-resolution spaceborne geodesy (primarily **InSAR** and **GNSS**) with seismological data to resolve the deformation continuum across diverse scales. I am interested in inverse problems that use optimization or stochastic sampling methods to infer the kinematics of faults, volcanoes, and plate rotations through analytical formulations and Boundary Element Modeling.
 
