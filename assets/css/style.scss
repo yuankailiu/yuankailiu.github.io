@@ -10,6 +10,7 @@ body {
     line-height: 1.6 !important;
     width: 100% !important;
     overflow-x: hidden !important;
+    min-width: 1000px !important; /* Forces zoom-out on mobile, preserves two-column layout */
 }
 
 .wrapper {
@@ -31,10 +32,10 @@ header {
 }
 
 header img {
-    width: 180px !important; /* Fixed width to maintain circular proportions */
-    height: 180px !important; /* Fixed height */
-    object-fit: cover !important; /* Ensures image fills circle without distortion */
-    border-radius: 50% !important; /* 50% for perfect circle, 15% for rounded rectangle */
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
     filter: none !important;
     border: 1px solid #eee !important;
     margin-bottom: 15px !important;
@@ -49,37 +50,33 @@ section {
 }
 
 /* --- Color scheme: Stanford Cardinal Red --- */
-/* Includes name link, body titles, Research page titles */
 header h1 a {
     color: #9c1414 !important;
-    font-weight: 600 !important; /* Bold */
+    font-weight: 600 !important;
     font-style: normal !important;
 }
 section h1 {
     color: #8C1515 !important;
-    font-weight: 700 !important; /* Bold */
+    font-weight: 700 !important;
     font-style: italic !important;
 }
 section h2,
 section h3,
 section h4 {
     color: #000000 !important;
-    font-weight: 600 !important; /* Bold */
-    font-style: normal !important; /* Ensures non-italic */
+    font-weight: 600 !important;
+    font-style: normal !important;
 }
 
-/* Prevents name link from changing color too drastically on hover */
 header h1 a:hover {
     text-decoration: none !important;
     color: #ba2424 !important;
 }
 
-/* Heading font sizes */
 h1 { font-size: 32px !important; }
 h2 { font-size: 26px !important; border-bottom: 1px solid #eee !important; padding-bottom: 5px; margin-top: 2.5rem !important; }
 h3 { font-size: 20px !important; }
 
-/* Links: academic blue */
 header a, section a {
     color: #0242f1 !important;
     text-decoration: underline !important;
@@ -89,48 +86,7 @@ section a:hover {
     background-color: #fffdc0 !important;
 }
 
-/* Sidebar detail font 17px */
 header p, header nav a, header div.contact-links p {
     font-size: 17px !important;
     margin-bottom: 5px !important;
-}
-
-/* === Mobile responsive addition (kept minimal) === */
-@media (max-width: 768px) {
-    .wrapper {
-        flex-direction: column !important;
-        padding: 2rem 0 !important;
-    }
-
-    header {
-        flex: auto !important;
-        padding-left: 5% !important;
-        padding-right: 5% !important;
-        position: relative !important;
-        top: 0 !important;
-        text-align: center !important;
-    }
-
-    header img {
-        width: 140px !important;
-        height: 140px !important;
-    }
-
-    section {
-        flex: auto !important;
-        padding-left: 5% !important;
-        padding-right: 5% !important;
-    }
-
-    h2 {
-        margin-top: 1.5rem !important;
-    }
-}
-
-/* Prevent unwanted zoom recalculation on mobile */
-@media (max-width: 768px) {
-    * {
-        -webkit-text-size-adjust: 100% !important;
-        text-size-adjust: 100% !important;
-    }
 }
