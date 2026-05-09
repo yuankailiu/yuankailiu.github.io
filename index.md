@@ -3,6 +3,68 @@ layout: default
 title: Yuan-Kai Liu
 ---
 
+<style>
+/* 強制重置 Minimalist 限制 */
+body {
+    font-family: "Et-Book", "Palatino Linotype", "Palatino", "Georgia", serif !important;
+    background-color: #fffff8 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+.wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+    max-width: 1300px !important;
+    margin: 0 auto !important;
+    padding: 4rem 2rem !important;
+    gap: 50px !important;
+}
+
+/* 強制左側 20% */
+header {
+    flex: 0 0 22% !important;
+    position: sticky !important;
+    top: 2rem !important;
+    width: auto !important;
+    float: none !important;
+}
+
+header img {
+    width: 100% !important;
+    filter: grayscale(100%) !important;
+    border-radius: 0 !important;
+}
+
+/* 強制右側 75% */
+section {
+    flex: 1 !important;
+    float: none !important;
+    width: auto !important;
+}
+
+h1, h2, h3 {
+    color: #111 !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    border-bottom: 1px solid #eee !important;
+}
+
+section a {
+    color: #0000ee !important;
+    text-decoration: underline !important;
+}
+
+section a:hover {
+    background-color: #fffdc0 !important;
+}
+
+@media screen and (max-width: 850px) {
+    .wrapper { flex-direction: column !important; }
+    header { position: static !important; flex: none !important; }
+}
+</style>
+
 # Space geodesy x Tectonophysics
 
 *   *   *
