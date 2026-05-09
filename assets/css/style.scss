@@ -14,15 +14,23 @@ body {
     display: flex !important;
     flex-direction: row !important;
     max-width: 95vw !important; /* 強制 95% 寬度 */
-    width: 95vw !important;
+    width: 90vw !important;
     margin: 0 auto !important;
     padding: 4rem 2.5% !important;
     gap: 40px !important;
 }
 
+/* 確保 Research 頁面的圖片不會撐破佈局 */
+section img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 1rem 0;
+}
+
 /* 左側欄：彩色頭像 */
 header {
-    flex: 0 0 20% !important; /* 固定 20% 寬度 */
+    flex: 0 0 15% !important; /* 固定 15% 寬度 */
     position: sticky !important;
     top: 2rem !important;
     width: auto !important;
