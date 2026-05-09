@@ -8,9 +8,9 @@ body {
     background-color: #fffff8 !important; /* Tufte classic off-white */
     color: #111 !important;
     line-height: 1.6 !important;
-    width: 100% !important;
-    overflow-x: hidden !important;
-    min-width: 1000px !important; /* Forces zoom-out on mobile, preserves two-column layout */
+    width: 1000px !important;  /* Fixed width prevents mobile browser zoom guessing */
+    margin: 0 auto !important;
+    overflow-x: auto !important;
 }
 
 .wrapper {
