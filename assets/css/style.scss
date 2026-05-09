@@ -1,98 +1,74 @@
+---
+---
 @import "jekyll-theme-minimal";
 
-/* --- Tufte-Inspired Academic Style --- */
-
+/* 強制全局背景與字體 */
 body {
-  /* 優先載入經典襯線字體，模仿物理學報與 Tufte 樣式 */
-  font-family: "Et-Book", "Palatino Linotype", "Palatino", "Georgia", "Times New Roman", serif;
-  background-color: #fffff8; /* 略微米白，具備紙張質感 */
-  color: #111;
-  max-width: 100% !important;
-  margin: 0;
-  padding: 0;
+    font-family: "Et-Book", "Palatino Linotype", "Palatino", "Georgia", serif !important;
+    background-color: #fffff8 !important;
+    color: #111 !important;
 }
 
-/* 重新定義 Wrapper 為 Flex 佈局 */
+/* 佈局擴展至 95% 視窗寬度 */
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  max-width: 1300px; /* 增加總寬度，讓 Full Page 感更強 */
-  margin: 0 auto;
-  padding: 4rem 2rem;
-  gap: 50px;
+    display: flex !important;
+    flex-direction: row !important;
+    max-width: 95vw !important; /* 強制 95% 寬度 */
+    width: 95vw !important;
+    margin: 0 auto !important;
+    padding: 4rem 2.5% !important;
+    gap: 40px !important;
 }
 
-/* 左側 20%：固定身分欄 */
+/* 左側欄：彩色頭像 */
 header {
-  flex: 0 0 20%;
-  position: sticky;
-  top: 4rem;
-  height: fit-content;
-  width: auto !important;
-  float: none !important;
-  margin: 0 !important;
-  text-align: left;
+    flex: 0 0 20% !important; /* 固定 20% 寬度 */
+    position: sticky !important;
+    top: 2rem !important;
+    width: auto !important;
+    float: none !important;
 }
 
 header img {
-  width: 100% !important;
-  border-radius: 0 !important; /* 去除圓角，回歸原始風格 */
-  filter: grayscale(100%); /* 黑白濾鏡，增加嚴肅學術感 */
-  border: 0.5px solid #ccc;
-  margin-bottom: 1.5rem;
+    width: 100% !important;
+    filter: none !important; /* 確保頭像為彩色 */
+    border-radius: 0 !important;
+    border: 1px solid #eee !important;
 }
 
-header h1 {
-  font-size: 1.5rem !important;
-  margin-top: 0;
-}
-
-/* 右側 80%：主要內容區 */
+/* 右側欄：內容區 */
 section {
-  flex: 1;
-  width: auto !important;
-  float: none !important;
-  padding-left: 20px;
+    flex: 1 !important; /* 佔用剩下的 80% */
+    width: auto !important;
+    float: none !important;
+    padding-left: 30px !important;
 }
 
-/* --- 文字細節調整 --- */
-
+/* 連結與標題 */
 h1, h2, h3 {
-  color: #111 !important;
-  font-weight: 400;
-  font-style: italic; /* Tufte 式標題 */
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.2rem;
-  margin-top: 2.5rem;
+    color: #111 !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    border-bottom: 1px solid #eee !important;
 }
 
-/* 連結：經典學術藍與黃色標註效果 */
 section a {
-  color: #0000ee !important;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+    color: #0000ee !important;
+    text-decoration: underline !important;
 }
 
 section a:hover {
-  background-color: #fffdc0; /* 滑鼠懸停時的螢光筆標註感 */
-  color: #000 !important;
+    background-color: #fffdc0 !important;
 }
 
-/* 列表間距與行高 */
-li {
-  margin-bottom: 0.6rem;
-  line-height: 1.5;
-}
-
-/* 手機適應 */
+/* 手機版自動回歸單欄 */
 @media screen and (max-width: 850px) {
-  .wrapper {
-    flex-direction: column;
-    padding: 2rem 1.5rem;
-  }
-  header {
-    position: static;
-    flex: none;
-    width: 100% !important;
-  }
+    .wrapper {
+        display: block !important;
+        width: 90% !important;
+    }
+    header {
+        position: static !important;
+        width: 100% !important;
+    }
 }
