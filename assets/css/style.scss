@@ -15,25 +15,22 @@ body {
     color: #111 !important;
     line-height: 1.6 !important;
     margin: 0 !important;
-    padding: 0 20px !important;
+    padding: 0 2% !important;
 }
 
 .wrapper {
     display: flex !important;
     flex-direction: row !important;
-    flex-wrap: wrap !important;
-    max-width: 1200px !important;
+    max-width: 95% !important;  /* Wide on desktop */
     width: 100% !important;
     margin: 0 auto !important;
     padding: 2rem 0 !important;
     gap: 40px !important;
 }
 
-/* Left sidebar: auto width based on content */
+/* Left sidebar */
 header {
-    flex: 1 !important;
-    min-width: 220px !important;
-    max-width: 280px !important;
+    flex: 0 0 240px !important;  /* Fixed width sidebar */
     position: sticky !important;
     top: 2rem !important;
     align-self: flex-start !important;
@@ -48,11 +45,10 @@ header img {
     margin-bottom: 15px !important;
 }
 
-/* Main content: takes remaining space */
+/* Main content - takes all remaining space */
 section {
-    flex: 3 !important;
-    min-width: 280px !important;
-    max-width: 800px !important;
+    flex: 1 !important;
+    min-width: 0 !important;  /* Prevents overflow */
 }
 
 /* --- Color scheme: Stanford Cardinal Red --- */
@@ -100,44 +96,67 @@ header p, header nav a, header div.contact-links p {
     margin-bottom: 5px !important;
 }
 
-/* Make images and content responsive */
+/* Make images responsive */
 img, iframe {
     max-width: 100% !important;
     height: auto !important;
 }
 
-/* Small screens: still two columns, just narrower */
-@media (max-width: 700px) {
-    .wrapper {
-        flex-direction: row !important; /* Keep two columns */
-        gap: 20px !important;
+/* MOBILE: Single column, sidebar on top, content below */
+@media (max-width: 768px) {
+    body {
+        padding: 0 15px !important;
     }
 
+    .wrapper {
+        flex-direction: column !important;  /* Stack vertically */
+        max-width: 100% !important;
+        gap: 20px !important;
+        padding: 1rem 0 !important;
+    }
+
+    /* Sidebar becomes full width on top */
     header {
-        min-width: 160px !important;
+        flex: auto !important;
+        width: 100% !important;
+        position: relative !important;  /* No longer sticky */
+        top: 0 !important;
+        text-align: center !important;
+        padding: 0 !important;
+        margin-bottom: 10px !important;
     }
 
     header img {
-        width: 100px !important;
-        height: 100px !important;
+        width: 120px !important;
+        height: 120px !important;
+        margin: 0 auto 15px auto !important;
     }
 
+    /* Content below sidebar */
+    section {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    /* Smaller fonts for mobile */
     body {
-        font-size: 14px !important;
-        padding: 0 12px !important;
+        font-size: 15px !important;
     }
 
-    h1 { font-size: 22px !important; }
-    h2 { font-size: 18px !important; }
-    h3 { font-size: 16px !important; }
+    h1 { font-size: 26px !important; }
+    h2 { font-size: 22px !important; }
+    h3 { font-size: 18px !important; }
 
-    header p, header nav a {
-        font-size: 12px !important;
+    header h1 a {
+        font-size: 28px !important;
+    }
+
+    header p, header nav a, header div.contact-links p {
+        font-size: 14px !important;
     }
 }
 
 /* Prevent any zoom-related reflows */
 * {
-    max-width: 100%;
     box-sizing: border-box;
 }
