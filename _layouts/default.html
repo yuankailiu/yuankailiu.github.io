@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta name="google-site-verification" content="kAlgNsucLdipx6aMUUAG8seQTtYoPJmnQYBYc5n6XSE" />
 
     {% seo %}
@@ -112,23 +112,5 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
-
-    <!-- Mobile zoom fix - prevents zoom jump on touch release -->
-    <script>
-    (function() {
-      // Fix for mobile zoom jump on touch release
-      if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-        // Prevent font boosting that causes zoom jumps
-        document.documentElement.style.setProperty('-webkit-text-size-adjust', '100%', 'important');
-        document.documentElement.style.setProperty('text-size-adjust', '100%', 'important');
-
-        // Ensure stable viewport behavior
-        var viewport = document.querySelector('meta[name=viewport]');
-        if (viewport) {
-          viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=10.0, user-scalable=yes, viewport-fit=cover');
-        }
-      }
-    })();
-    </script>
   </body>
 </html>

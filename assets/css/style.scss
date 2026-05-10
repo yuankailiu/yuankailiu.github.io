@@ -2,6 +2,12 @@
 ---
 @import "jekyll-theme-minimal";
 
+/* Prevent font size adjustments on mobile after zoom */
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
 body {
     font-size: 18px !important;
     font-family: "Et-Book", "Palatino Linotype", "Palatino", "Georgia", serif !important;
@@ -9,12 +15,12 @@ body {
     color: #111 !important;
     line-height: 1.6 !important;
     width: 100% !important;
-    overflow-x: hidden !important;
+    overflow-x: auto !important; /* Allow scrolling if needed, but no layout change */
 }
 
 .wrapper {
     display: flex !important;
-    flex-direction: row !important;
+    flex-direction: row !important; /* Always row - never column */
     max-width: 100% !important;
     width: 100% !important;
     margin: 0 !important;
@@ -93,44 +99,4 @@ section a:hover {
 header p, header nav a, header div.contact-links p {
     font-size: 17px !important;
     margin-bottom: 5px !important;
-}
-
-/* === Mobile responsive addition (kept minimal) === */
-@media (max-width: 768px) {
-    .wrapper {
-        flex-direction: column !important;
-        padding: 2rem 0 !important;
-    }
-
-    header {
-        flex: auto !important;
-        padding-left: 5% !important;
-        padding-right: 5% !important;
-        position: relative !important;
-        top: 0 !important;
-        text-align: center !important;
-    }
-
-    header img {
-        width: 140px !important;
-        height: 140px !important;
-    }
-
-    section {
-        flex: auto !important;
-        padding-left: 5% !important;
-        padding-right: 5% !important;
-    }
-
-    h2 {
-        margin-top: 1.5rem !important;
-    }
-}
-
-/* Prevent unwanted zoom recalculation on mobile */
-@media (max-width: 768px) {
-    * {
-        -webkit-text-size-adjust: 100% !important;
-        text-size-adjust: 100% !important;
-    }
 }
