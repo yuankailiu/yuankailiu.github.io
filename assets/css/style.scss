@@ -2,90 +2,94 @@
 ---
 @import "jekyll-theme-minimal";
 
-/* Prevent font size adjustments on mobile after zoom */
+/* Completely disable font boosting - this fixes the zoom jump */
+* {
+    -webkit-text-size-adjust: none !important;
+    text-size-adjust: none !important;
+    -moz-text-size-adjust: none !important;
+}
+
+/* Fix width to prevent reflow */
 html {
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+    width: 1100px !important;
+    overflow-x: auto !important;
 }
 
 body {
     font-size: 18px !important;
     font-family: "Et-Book", "Palatino Linotype", "Palatino", "Georgia", serif !important;
-    background-color: #fffff8 !important; /* Tufte classic off-white */
+    background-color: #fffff8 !important;
     color: #111 !important;
     line-height: 1.6 !important;
-    width: 100% !important;
-    overflow-x: auto !important; /* Allow scrolling if needed, but no layout change */
+    width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
 }
 
 .wrapper {
     display: flex !important;
-    flex-direction: row !important; /* Always row - never column */
-    max-width: 100% !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 4rem 0 !important;
+    flex-direction: row !important;
+    width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 2rem 0 !important;
     gap: 0 !important;
 }
 
-/* Left sidebar: 18% */
+/* Left sidebar: 18% of 1100px = ~198px */
 header {
-    flex: 0 0 18% !important;
-    padding-left: 3% !important;
+    flex: 0 0 200px !important;
+    padding-left: 20px !important;
     position: sticky !important;
     top: 2.5rem !important;
 }
 
 header img {
-    width: 180px !important; /* Fixed width to maintain circular proportions */
-    height: 180px !important; /* Fixed height */
-    object-fit: cover !important; /* Ensures image fills circle without distortion */
-    border-radius: 50% !important; /* 50% for perfect circle, 15% for rounded rectangle */
-    filter: none !important;
+    width: 140px !important;
+    height: 140px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
     border: 1px solid #eee !important;
     margin-bottom: 15px !important;
 }
 
-/* Main content: 62% (leaves ~20% whitespace on the right) */
+/* Main content */
 section {
-    flex: 0 0 62% !important;
-    padding-left: 60px !important;
-    padding-right: 5% !important;
-    float: none !important;
+    flex: 1 !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    max-width: 700px !important;
 }
 
 /* --- Color scheme: Stanford Cardinal Red --- */
-/* Includes name link, body titles, Research page titles */
 header h1 a {
     color: #9c1414 !important;
-    font-weight: 600 !important; /* Bold */
+    font-weight: 600 !important;
     font-style: normal !important;
 }
+
 section h1 {
     color: #8C1515 !important;
-    font-weight: 700 !important; /* Bold */
+    font-weight: 700 !important;
     font-style: italic !important;
 }
+
 section h2,
 section h3,
 section h4 {
     color: #000000 !important;
-    font-weight: 600 !important; /* Bold */
-    font-style: normal !important; /* Ensures non-italic */
+    font-weight: 600 !important;
+    font-style: normal !important;
 }
 
-/* Prevents name link from changing color too drastically on hover */
 header h1 a:hover {
     text-decoration: none !important;
     color: #ba2424 !important;
 }
 
-/* Heading font sizes */
 h1 { font-size: 32px !important; }
-h2 { font-size: 26px !important; border-bottom: 1px solid #eee !important; padding-bottom: 5px; margin-top: 2.5rem !important; }
+h2 { font-size: 26px !important; border-bottom: 1px solid #eee !important; padding-bottom: 5px; margin-top: 2rem !important; }
 h3 { font-size: 20px !important; }
 
-/* Links: academic blue */
 header a, section a {
     color: #0242f1 !important;
     text-decoration: underline !important;
@@ -95,8 +99,16 @@ section a:hover {
     background-color: #fffdc0 !important;
 }
 
-/* Sidebar detail font 17px */
 header p, header nav a, header div.contact-links p {
-    font-size: 17px !important;
+    font-size: 16px !important;
     margin-bottom: 5px !important;
+}
+
+/* Footer stays at bottom */
+footer {
+    width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 20px 0 !important;
+    text-align: center !important;
+    clear: both !important;
 }
