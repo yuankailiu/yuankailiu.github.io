@@ -51,5 +51,5 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 
 ---
 
-![group_photo](assets/img/jpl_group_visit.jpeg){:style="width: 70%;"}
+![group_photo](assets/img/jpl_group_visit.jpeg){:style="width: 60%;"}
 > Peak era of Simons' group members in front of JPL, 2022. Left to right are me, Lijun Zhu, Leonid Pereiaslov, Yujie Zheng, Alex Berne, Tobias Köhne, Yunjun Zhang. Hmmm, where were Ollie, Rishav, and Théa?
