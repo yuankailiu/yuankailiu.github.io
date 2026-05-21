@@ -17,7 +17,7 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 
 ## News
 
-[06/2026] Will be at the [2026 Crustal Deformation Modeling Workshop](https://geodynamics.org/events/details/372), Golden, CO.
+[08/2026] Will be attending the IEEE IGARSS meeting in Washington, DC.
 
 [03/2026] Presented my [recent work in Peru-Chile subduction zone](/research/#chile-insar) at the [SZ4D conference](https://www.sz4d.org/events/2026-sz4d-science-community-meeting) at Long Beach, CA.
 
@@ -49,7 +49,30 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 * 2015: Research assistant, Institute of Earth Sciences, Academia Sinica, Taipei, Taiwan
 
 
----
+## Media
+Editor's highlight by EOS (AGU): [Mapping the Whereabouts of Continents
+](https://eos.org/editor-highlights/mapping-the-whereabouts-of-continents)
+
+
+## Publications: 
+
+**Liu, Y.-K.**, Yunjun, Z., & Simons, M. (2025). Inferring Tectonic Plate Rotations From InSAR Time Series. Geophysical Research Letters, 52(12), e2025GL115137. [html](https://doi.org/10.1029/2025GL115137), [open html](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2025GL115137), [PDF](./files/Liu_etal_GRL2025.pdf)
+
+Stephenson, O. L.$^*$, **Liu, Y.-K.$^*$**, Yunjun, Z., Simons, M., Rosen, P., & Xu, X. (2022). The Impact of Plate Motions on Long‐Wavelength InSAR‐Derived Velocity Fields. Geophysical Research Letters, 49(21), e2022GL099835. [html](https://doi.org/10.1029/2022GL099835), [open html](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022GL099835), [PDF](./files/Stephenson_Liu_GRL2022.pdf)
+
+**Liu, Y.-K.**, Ross, Z. E., Cochran, E. S., & Lapusta, N. (2022). A unified perspective of seismicity and fault coupling along the San Andreas Fault. Science Advances, 8(8), eabk1167. [html](https://doi.org/10.1126/sciadv.abk1167), [PDF](./files/Liu_etal_SciAdv2022.pdf)
+
+**Liu, Y.-K.**, Ruch, J., Vasyura-Bathke, H., & Jónsson, S. (2019). Influence of ring faulting in localizing surface deformation at subsiding calderas. Earth and Planetary Science Letters, 526, 115784. [html](https://doi.org/10.1016/j.epsl.2019.115784), [PDF](./files/Liu_etal_EPSL2019.pdf)
+
+Aldaajani, T., Simons, M., Yunjun, Z., Bekaert, D., Almalki, K. A., & **Liu, Y.-K.** (2022). Using InSAR Time Series to Monitor Surface Fractures and Fissures in the Al-Yutamah Valley, Western Arabia. Remote Sensing, 14(8), 1769. [html](https://doi.org/10.3390/rs14081769)
+
+
+$^*$ equally contributed authors.
+
+
+## Ways to reach out to me
+*   *   *
+359 Mitchell Earth Sciences
 
 ![group_photo](assets/img/jpl_group_visit.jpeg){:style="width: 60%;"}
 > Peak era of Simons' group members in front of JPL, 2022. Left to right are me, Lijun Zhu, Leonid Pereiaslov, Yujie Zheng, Alex Berne, Tobias Köhne, Yunjun Zhang. Hmmm, where were Ollie, Rishav, and Théa?
