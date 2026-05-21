@@ -58,7 +58,7 @@ Editor's highlight by EOS (AGU): [Mapping the Whereabouts of Continents
 
 **Liu, Y.-K.**, Yunjun, Z., & Simons, M. (2025). Inferring Tectonic Plate Rotations From InSAR Time Series. Geophysical Research Letters, 52(12), e2025GL115137. [html](https://doi.org/10.1029/2025GL115137), [open html](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2025GL115137), [PDF](./files/Liu_etal_GRL2025.pdf)
 
-Stephenson, O. L.$^*$, **Liu, Y.-K.$^*$**, Yunjun, Z., Simons, M., Rosen, P., & Xu, X. (2022). The Impact of Plate Motions on Long‐Wavelength InSAR‐Derived Velocity Fields. Geophysical Research Letters, 49(21), e2022GL099835. [html](https://doi.org/10.1029/2022GL099835), [open html](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022GL099835), [PDF](./files/Stephenson_Liu_GRL2022.pdf)
+Stephenson, O. L.<sup>†</sup>, **Liu, Y.-K.<sup>†</sup>**, Yunjun, Z., Simons, M., Rosen, P., & Xu, X. (2022). The Impact of Plate Motions on Long‐Wavelength InSAR‐Derived Velocity Fields. Geophysical Research Letters, 49(21), e2022GL099835. [html](https://doi.org/10.1029/2022GL099835), [open html](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022GL099835), [PDF](./files/Stephenson_Liu_GRL2022.pdf)
 
 **Liu, Y.-K.**, Ross, Z. E., Cochran, E. S., & Lapusta, N. (2022). A unified perspective of seismicity and fault coupling along the San Andreas Fault. Science Advances, 8(8), eabk1167. [html](https://doi.org/10.1126/sciadv.abk1167), [PDF](./files/Liu_etal_SciAdv2022.pdf)
 
@@ -67,7 +67,7 @@ Stephenson, O. L.$^*$, **Liu, Y.-K.$^*$**, Yunjun, Z., Simons, M., Rosen, P., & 
 Aldaajani, T., Simons, M., Yunjun, Z., Bekaert, D., Almalki, K. A., & **Liu, Y.-K.** (2022). Using InSAR Time Series to Monitor Surface Fractures and Fissures in the Al-Yutamah Valley, Western Arabia. Remote Sensing, 14(8), 1769. [html](https://doi.org/10.3390/rs14081769)
 
 
-$^*$ equally contributed authors.
+<sup>†</sup> Equal contribution
 
 
 ## Ways to reach out to me
