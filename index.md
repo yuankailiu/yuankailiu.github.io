@@ -70,9 +70,9 @@ Aldaajani, T., Simons, M., Yunjun, Z., Bekaert, D., Almalki, K. A., & **Liu, Y.-
 <sup>†</sup> Equal contribution
 
 
-## Ways to reach out to me
 *   *   *
-359 Mitchell Earth Sciences
+
+**Please feel free to reach out to me!**
 
 ![group_photo](assets/img/jpl_group_visit.jpeg){:style="width: 60%;"}
 > Peak era of Simons' group members in front of JPL, 2022. Left to right are me, Lijun Zhu, Leonid Pereiaslov, Yujie Zheng, Alex Berne, Tobias Köhne, Yunjun Zhang. Hmmm, where were Ollie, Rishav, and Théa?
