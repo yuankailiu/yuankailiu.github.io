@@ -20,7 +20,7 @@
 
 title: Yuan-Kai Liu
 logo: /assets/img/heads/horseshoebend.jpg
-description: Homepage
+description: "Yuan-Kai Liu, geophysicist at Stanford. Space geodesy (InSAR, GNSS), seismic cycles, and lithospheric deformation."
 photo_caption: "Glen Canyon (horseshoe bend), AZ, 2024"
 #photo_caption: "Moore Walk, Caltech, 2025"
 #baseurl: "" # the subpath of your site, e.g. /blog
@@ -50,7 +50,17 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - docs/
+  - script/
+  - _sass_bak/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-theme-minimal.gemspec
+  - vendor/
+
+# Default exclude list (for reference):
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
