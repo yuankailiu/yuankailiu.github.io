@@ -13,7 +13,7 @@ I am a postdoctoral researcher at the Department of Geophysics, Doerr School of 
 I am a geophysicist interested in how lithospheric processes and medium properties manifest as observable crustal deformation. My research integrates high-resolution spaceborne geodesy (primarily **InSAR** and **GNSS**) with seismological data to resolve the deformation continuum across diverse scales. I am interested in inverse problems that use optimization or stochastic sampling methods to infer the kinematics of faults, volcanoes, and plate rotations through analytical formulations and Boundary Element Modeling.
 
 **Research Interests:**
-tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology.
+geophysics, tectonic geodesy, seismic cycles, inverse problems.
 
 ## News
 
@@ -25,7 +25,7 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 
 [08/2026] Presented our soil closure-phase work in the Kaweah Basin, CA, at the IEEE IGARSS meeting in Washington, DC.
 
-[03/2026] Presented my [recent work on the Peru–Chile subduction zone](/research/#chile-insar) at the [SZ4D conference](https://www.sz4d.org/events/2026-sz4d-science-community-meeting) in Long Beach, CA.
+[04/2026] Presented my [recent work on the Peru–Chile subduction zone](/research/#chile-insar) at the [SZ4D conference](https://www.sz4d.org/events/2026-sz4d-science-community-meeting) in Long Beach, CA.
 
 [01/2026] I start my postdoc at **Geophysics, Stanford**, working with Prof. [Howard Zebker](https://ee.stanford.edu/~zebker/index.html) to advance open-access ground displacement products for volcano monitoring globally using Sentinel-1 and NISAR data. I am also working with Prof. [Rosemary Knight](https://sustainability.stanford.edu/people/rosemary-knight) to explore the capability of InSAR in our understanding of surface and subsurface hydrological processes.
 
@@ -87,4 +87,4 @@ Aldaajani, T., Simons, M., Yunjun, Z., Bekaert, D., Almalki, K. A., & **Liu, Y.-
 **Please feel free to reach out to me!**
 
 ![group_photo](assets/img/jpl_group_visit.jpeg){:style="width: 60%;"}
-> Peak era of Simons' group members in front of JPL, 2022. Left to right are me, Lijun Zhu, Leonid Pereiaslov, Yujie Zheng, Alex Berne, Tobias Köhne, Yunjun Zhang. Hmmm, where were Ollie, Rishav, and Théa?
+> The Simons group at its peak size, around 2020–2022 during my PhD years, in front of JPL (2022). Left to right: me, Lijun Zhu, Leonid Pereiaslov, Yujie Zheng, Alex Berne, Tobias Köhne, Yunjun Zhang. Hmmm, where were Ollie, Rishav, and Théa?
