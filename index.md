@@ -17,17 +17,19 @@ tectonic geodesy, InSAR, seismic cycles, plate tectonics, statistical seismology
 
 ## News
 
+[12/2026] At AGU26, I am co-convening the session G019 *Subduction Zone Deformation Throughout the Earthquake Cycle: Observations and Models* with Elizabeth Sherrill (GEOMAR) and Nicolás Castro Perdomo (Indiana University). I will also give a talk in G021 (G21A-05) on a wide-area joint geodetic view of backarc deformation along the Peru–Chile margin, and share an update on Sentinel-1/NISAR closure-phase work in the Kaweah Basin, CA.
+
 [10/2026] Our Bayesian co- and postseismic slip model of the 2023 Türkiye–Syria earthquake doublet, led by Leonid Pereiaslov, is out in [Seismological Research Letters](https://doi.org/10.1785/0220260122).
 
 [09/2026] Our study of the 2025 Santorini–Kolumbo earthquake swarm, led by John Wilding and Taiyi Wang, is out in [Science Advances](https://doi.org/10.1126/sciadv.aec3198). A dike intrusion triggered an M<sub>w</sub> 6.2 aseismic slip transient on the Amorgos fault.
 
-[08/2026] Will be attending the IEEE IGARSS meeting in Washington, DC.
+[08/2026] Presented our soil closure-phase work in the Kaweah Basin, CA, at the IEEE IGARSS meeting in Washington, DC.
 
 [03/2026] Presented my [recent work on the Peru–Chile subduction zone](/research/#chile-insar) at the [SZ4D conference](https://www.sz4d.org/events/2026-sz4d-science-community-meeting) in Long Beach, CA.
 
 [01/2026] I start my postdoc at **Geophysics, Stanford**, working with Prof. [Howard Zebker](https://ee.stanford.edu/~zebker/index.html) to advance open-access ground displacement products for volcano monitoring globally using Sentinel-1 and NISAR data. I am also working with Prof. [Rosemary Knight](https://sustainability.stanford.edu/people/rosemary-knight) to explore the capability of InSAR in our understanding of surface and subsurface hydrological processes.
 
-[12/2025] I will be at the Subduction zone deformation session at AGU, New Orleans.
+[12/2025] Presented our Peru–Chile megathrust coupling work in the subduction zone deformation session at AGU25, New Orleans.
 
 --
 
@@ -65,6 +67,8 @@ Wilding, J. D.<sup>†</sup>, Wang, T. A.<sup>†</sup>, **Liu, Y.-K.**, & Ross,
 Pereiaslov, L., Ragon, T., **Liu, Y.-K.**, Bato, M. G., Govorcin, M., Fielding, E., & Simons, M. (2026). Bayesian Co- and Postseismic Slip Model of the 2023 M<sub>w</sub> 7.8 and 7.7 Türkiye–Syria Earthquake Doublet from Geodetic Data. Seismological Research Letters. [html](https://doi.org/10.1785/0220260122), [PDF](./files/Pereiaslov_etal_SRL2026.pdf)
 
 **Liu, Y.-K.**, Yunjun, Z., & Simons, M. (2025). Inferring Tectonic Plate Rotations From InSAR Time Series. Geophysical Research Letters, 52(12), e2025GL115137. [html](https://doi.org/10.1029/2025GL115137), [open html](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2025GL115137), [PDF](./files/Liu_etal_GRL2025.pdf)
+
+**Liu, Y.-K.** (2025). Space Geodetic Constraints on Plate Motion, Fault Creep, and Megathrust Coupling. Ph.D. dissertation, California Institute of Technology. [html](https://thesis.caltech.edu/17795/), doi:[10.7907/d6e6-q845](https://doi.org/10.7907/d6e6-q845)
 
 Stephenson, O. L.<sup>†</sup>, **Liu, Y.-K.<sup>†</sup>**, Yunjun, Z., Simons, M., Rosen, P., & Xu, X. (2022). The Impact of Plate Motions on Long‐Wavelength InSAR‐Derived Velocity Fields. Geophysical Research Letters, 49(21), e2022GL099835. [html](https://doi.org/10.1029/2022GL099835), [open html](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022GL099835), [PDF](./files/Stephenson_Liu_GRL2022.pdf)
 

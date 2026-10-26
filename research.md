@@ -54,6 +54,22 @@ In [this study](https://www.science.org/doi/full/10.1126/sciadv.abk1167), we fin
 
 <hr class="topic-divider">
 
+## Elastic stress relay during the 2025 Santorini–Kolumbo unrest
+{: #aegean}
+
+In early 2025, an intense earthquake swarm began near the Kolumbo volcano, northeast of Santorini in the Aegean Sea. Its driving process was debated, with interpretations ranging from dike intrusion to aseismic fault slip.
+
+[In this study](https://doi.org/10.1126/sciadv.aec3198) (Wilding, Wang et al., 2026, Sci. Adv.), we combine an enhanced machine-learning seismic catalog with GNSS and InSAR measurements on the surrounding islands. Pressurization of the magma reservoir under Santorini triggered a 9-km-long dike from a separate reservoir under Kolumbo. The dike in turn triggered an M<sub>w</sub> 6.2 aseismic slip transient on a branch of the Amorgos fault. This suggests that unrest in rift zones can propagate across several reservoirs and faults through sequential transfer of elastic stress.
+
+<hr class="topic-divider">
+
+## Co- and postseismic slip of the 2023 Türkiye–Syria earthquake doublet
+{: #turkiye}
+
+[Pereiaslov et al. (2026, SRL)](https://doi.org/10.1785/0220260122) built Bayesian co- and postseismic slip models of the 2023 M<sub>w</sub> 7.8 and 7.7 earthquakes from SAR pixel offsets, InSAR, and GNSS, without artificial regularization. I contributed to the geodetic data processing. Afterslip mostly surrounds the coseismic ruptures, but the postseismic data cannot be explained by elastic afterslip alone.
+
+<hr class="topic-divider">
+
 ## Crustal deformation of caldera collapse
 {: #calderaringfault}
 
@@ -71,7 +87,7 @@ Caldera is a complicated volcanic system with magmatic chambers, dikes, boundary
 
 ![aqaba_profile](/assets/img/aqaba_profile.jpg){:style="width: 70%; height: auto;"}
 
-The Gulf of Aqaba is the most seismically active region between Egypt and Saudi Arabia. The gulf hosts dense seismicity near the bathymetric-mapped fault structures. Several large earthquakes and prolific swarms were recorded in the past, including the [1995 M 7.3 Nuweiba Earthquake](https://www.ipgp.fr/~klinger/web_Yann/papiers/klinger_GRL2000.pdf). One key question is whether the southern Dead Sea fault is creeping. This will help to understand the fault shallow slip deficit, strain accumulation, and the associated seismic hazard on the new megacity, [NEOM](https://www.neom.com/en-us).
+The Gulf of Aqaba is the most seismically active region between Egypt and Saudi Arabia. The gulf hosts dense seismicity near the bathymetric-mapped fault structures. Several large earthquakes and prolific swarms were recorded in the past, including the [1995 M 7.3 Nuweiba Earthquake](https://doi.org/10.1029/1999GL008463). One key question is whether the southern Dead Sea fault is creeping. This will help to understand the fault shallow slip deficit, strain accumulation, and the associated seismic hazard on the new megacity, [NEOM](https://www.neom.com/en-us).
 
 A previous GPS block model predicts left-lateral and opening motion along central and southern Dead Sea fault. But most past measurements come from sparse, mostly campaign GPS, and limited burst-overlap interferometry. We try to separate the present-day secular deformation in these segments from Sentinel-1 measurements.
 
