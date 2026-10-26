@@ -1,0 +1,152 @@
+# Publications, newest first. Rendered by _includes/publications.html.
+#   authors: HTML allowed (<b> for me, <sup>&dagger;</sup> for equal contribution)
+#   doi, pdf, free: optional links (free = publisher's free-to-read page)
+#   bibtex: shown by the "Cite" button
+
+papers:
+  - key: wilding2026cascading
+    authors: "Wilding, J. D.<sup>&dagger;</sup>, Wang, T. A.<sup>&dagger;</sup>, <b>Liu, Y.-K.</b>, & Ross, Z. E."
+    year: 2026
+    title: "Cascading magmatic unrest and aseismic faulting in the Aegean Sea enabled by elastic stress relay"
+    venue: "Science Advances, 12(39), eaec3198"
+    doi: 10.1126/sciadv.aec3198
+    pdf: /files/Wilding_etal_SciAdv2026.pdf
+    bibtex: |
+      @article{wilding2026cascading,
+        title   = {Cascading magmatic unrest and aseismic faulting in the Aegean Sea enabled by elastic stress relay},
+        author  = {Wilding, John D. and Wang, Taiyi A. and Liu, Yuan-Kai and Ross, Zachary E.},
+        journal = {Science Advances},
+        volume  = {12},
+        number  = {39},
+        pages   = {eaec3198},
+        year    = {2026},
+        doi     = {10.1126/sciadv.aec3198}
+      }
+
+  - key: pereiaslov2026bayesian
+    authors: "Pereiaslov, L., Ragon, T., <b>Liu, Y.-K.</b>, Bato, M. G., Govorcin, M., Fielding, E., & Simons, M."
+    year: 2026
+    title: "Bayesian Co- and Postseismic Slip Model of the 2023 M<sub>w</sub> 7.8 and 7.7 Türkiye–Syria Earthquake Doublet from Geodetic Data"
+    venue: "Seismological Research Letters"
+    doi: 10.1785/0220260122
+    pdf: /files/Pereiaslov_etal_SRL2026.pdf
+    bibtex: |
+      @article{pereiaslov2026bayesian,
+        title   = {Bayesian Co- and Postseismic Slip Model of the 2023 {M}w 7.8 and 7.7 T{\"u}rkiye--Syria Earthquake Doublet from Geodetic Data},
+        author  = {Pereiaslov, Leonid and Ragon, Th{\'e}a and Liu, Yuan-Kai and Bato, Mary Grace and Govorcin, Marin and Fielding, Eric and Simons, Mark},
+        journal = {Seismological Research Letters},
+        year    = {2026},
+        doi     = {10.1785/0220260122}
+      }
+
+  - key: liu2025inferring
+    authors: "<b>Liu, Y.-K.</b>, Yunjun, Z., & Simons, M."
+    year: 2025
+    title: "Inferring Tectonic Plate Rotations From InSAR Time Series"
+    venue: "Geophysical Research Letters, 52(12), e2025GL115137"
+    doi: 10.1029/2025GL115137
+    free: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2025GL115137
+    pdf: /files/Liu_etal_GRL2025.pdf
+    bibtex: |
+      @article{liu2025inferring,
+        title   = {Inferring Tectonic Plate Rotations From {InSAR} Time Series},
+        author  = {Liu, Yuan-Kai and Yunjun, Zhang and Simons, Mark},
+        journal = {Geophysical Research Letters},
+        volume  = {52},
+        number  = {12},
+        pages   = {e2025GL115137},
+        year    = {2025},
+        doi     = {10.1029/2025GL115137}
+      }
+
+  - key: stephenson2022impact
+    authors: "Stephenson, O. L.<sup>&dagger;</sup>, <b>Liu, Y.-K.<sup>&dagger;</sup></b>, Yunjun, Z., Simons, M., Rosen, P., & Xu, X."
+    year: 2022
+    title: "The Impact of Plate Motions on Long-Wavelength InSAR-Derived Velocity Fields"
+    venue: "Geophysical Research Letters, 49(21), e2022GL099835"
+    doi: 10.1029/2022GL099835
+    free: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022GL099835
+    pdf: /files/Stephenson_Liu_GRL2022.pdf
+    bibtex: |
+      @article{stephenson2022impact,
+        title   = {The Impact of Plate Motions on Long-Wavelength {InSAR}-Derived Velocity Fields},
+        author  = {Stephenson, Oliver L. and Liu, Yuan-Kai and Yunjun, Zhang and Simons, Mark and Rosen, Paul and Xu, Xiaohua},
+        journal = {Geophysical Research Letters},
+        volume  = {49},
+        number  = {21},
+        pages   = {e2022GL099835},
+        year    = {2022},
+        doi     = {10.1029/2022GL099835}
+      }
+
+  - key: liu2022unified
+    authors: "<b>Liu, Y.-K.</b>, Ross, Z. E., Cochran, E. S., & Lapusta, N."
+    year: 2022
+    title: "A unified perspective of seismicity and fault coupling along the San Andreas Fault"
+    venue: "Science Advances, 8(8), eabk1167"
+    doi: 10.1126/sciadv.abk1167
+    pdf: /files/Liu_etal_SciAdv2022.pdf
+    bibtex: |
+      @article{liu2022unified,
+        title   = {A unified perspective of seismicity and fault coupling along the {San Andreas Fault}},
+        author  = {Liu, Yuan-Kai and Ross, Zachary E. and Cochran, Elizabeth S. and Lapusta, Nadia},
+        journal = {Science Advances},
+        volume  = {8},
+        number  = {8},
+        pages   = {eabk1167},
+        year    = {2022},
+        doi     = {10.1126/sciadv.abk1167}
+      }
+
+  - key: aldaajani2022using
+    authors: "Aldaajani, T., Simons, M., Yunjun, Z., Bekaert, D., Almalki, K. A., & <b>Liu, Y.-K.</b>"
+    year: 2022
+    title: "Using InSAR Time Series to Monitor Surface Fractures and Fissures in the Al-Yutamah Valley, Western Arabia"
+    venue: "Remote Sensing, 14(8), 1769"
+    doi: 10.3390/rs14081769
+    bibtex: |
+      @article{aldaajani2022using,
+        title   = {Using {InSAR} Time Series to Monitor Surface Fractures and Fissures in the {Al-Yutamah Valley}, Western {Arabia}},
+        author  = {Aldaajani, Thamer and Simons, Mark and Yunjun, Zhang and Bekaert, David and Almalki, Khalid A. and Liu, Yuan-Kai},
+        journal = {Remote Sensing},
+        volume  = {14},
+        number  = {8},
+        pages   = {1769},
+        year    = {2022},
+        doi     = {10.3390/rs14081769}
+      }
+
+  - key: liu2019influence
+    authors: "<b>Liu, Y.-K.</b>, Ruch, J., Vasyura-Bathke, H., & Jónsson, S."
+    year: 2019
+    title: "Influence of ring faulting in localizing surface deformation at subsiding calderas"
+    venue: "Earth and Planetary Science Letters, 526, 115784"
+    doi: 10.1016/j.epsl.2019.115784
+    pdf: /files/Liu_etal_EPSL2019.pdf
+    bibtex: |
+      @article{liu2019influence,
+        title   = {Influence of ring faulting in localizing surface deformation at subsiding calderas},
+        author  = {Liu, Yuan-Kai and Ruch, Jo{\"e}l and Vasyura-Bathke, Hannes and J{\'o}nsson, Sigurj{\'o}n},
+        journal = {Earth and Planetary Science Letters},
+        volume  = {526},
+        pages   = {115784},
+        year    = {2019},
+        doi     = {10.1016/j.epsl.2019.115784}
+      }
+
+thesis:
+  key: liu2026thesis
+  authors: "<b>Liu, Y.-K.</b>"
+  year: 2026
+  title: "Space Geodetic Constraints on Plate Motion, Fault Creep, and Megathrust Coupling"
+  venue: "Ph.D. dissertation, California Institute of Technology"
+  doi: 10.7907/d6e6-q845
+  url: https://thesis.caltech.edu/17795/
+  bibtex: |
+    @phdthesis{liu2026thesis,
+      title  = {Space Geodetic Constraints on Plate Motion, Fault Creep, and Megathrust Coupling},
+      author = {Liu, Yuan-Kai},
+      school = {California Institute of Technology},
+      year   = {2026},
+      doi    = {10.7907/D6E6-Q845}
+    }

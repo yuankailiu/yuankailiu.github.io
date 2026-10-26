@@ -1,0 +1,31 @@
+{%- comment -%} Numbered publication list from _data/publications.yml {%- endcomment -%}
+<ol class="pubs" reversed>
+{%- for p in site.data.publications.papers %}
+  <li>
+    {{ p.authors }} ({{ p.year }}). {{ p.title }}. <i>{{ p.venue }}</i>.
+    <span class="pub-links">
+      {%- if p.doi %}<a class="pub-btn" href="https://doi.org/{{ p.doi }}">DOI</a>{% endif -%}
+      {%- if p.pdf %}<a class="pub-btn" href="{{ p.pdf | relative_url }}">PDF</a>{% endif -%}
+      {%- if p.free %}<a class="pub-btn" href="{{ p.free }}">Free to read</a>{% endif -%}
+      {%- if p.bibtex %}<button type="button" class="pub-btn" data-bib="bib-{{ p.key }}" aria-expanded="false" aria-controls="bib-{{ p.key }}">Cite</button>{% endif -%}
+    </span>
+    {%- if p.bibtex %}
+    <div class="bibtex" id="bib-{{ p.key }}" hidden><button type="button" class="copy-btn">Copy</button><pre>{{ p.bibtex | strip | escape }}</pre></div>
+    {%- endif %}
+  </li>
+{%- endfor %}
+</ol>
+
+<p class="pub-note"><sup>&dagger;</sup> Equal contribution</p>
+
+{%- assign t = site.data.publications.thesis %}
+<h3>Thesis</h3>
+<p class="thesis">
+  {{ t.authors }} ({{ t.year }}). {{ t.title }}. <i>{{ t.venue }}</i>.
+  <span class="pub-links">
+    <a class="pub-btn" href="https://doi.org/{{ t.doi }}">DOI</a>
+    <a class="pub-btn" href="{{ t.url }}">CaltechTHESIS</a>
+    <button type="button" class="pub-btn" data-bib="bib-{{ t.key }}" aria-expanded="false" aria-controls="bib-{{ t.key }}">Cite</button>
+  </span>
+</p>
+<div class="bibtex" id="bib-{{ t.key }}" hidden><button type="button" class="copy-btn">Copy</button><pre>{{ t.bibtex | strip | escape }}</pre></div>

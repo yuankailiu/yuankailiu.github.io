@@ -8,6 +8,17 @@ permalink: /research/
 
 For my published works, please refer to my [Google Scholar page]({{ site.google_scholar_url }}).
 
+<div class="topic-grid">
+  <a href="#chile-insar"><img src="/assets/img/thumbs/chile-datamodel.jpg" alt="" loading="lazy"><span class="topic-label">Peru–Chile interseismic loading</span></a>
+  <a href="#plate-rotation"><img src="/assets/img/thumbs/grl-2024-insarEuler.jpg" alt="" loading="lazy"><span class="topic-label">Plate rotation from InSAR</span></a>
+  <a href="#safseismicity"><img src="/assets/img/thumbs/sciadv.abk1167-f2.jpg" alt="" loading="lazy"><span class="topic-label">Seismicity and fault coupling</span></a>
+  <a href="#aegean"><img src="/assets/img/thumbs/sciadv-2026-aegean-f3.jpg" alt="" loading="lazy"><span class="topic-label">Santorini–Kolumbo 2025 unrest</span></a>
+  <a href="#turkiye"><span class="topic-noimg"><span>M<sub>w</sub> 7.8 &amp; 7.7<br>2023</span></span><span class="topic-label">Türkiye–Syria co- &amp; postseismic slip</span></a>
+  <a href="#calderaringfault"><img src="/assets/img/thumbs/epsl-2019-caldera.jpg" alt="" loading="lazy"><span class="topic-label">Caldera collapse and ring faults</span></a>
+  <a href="#aqaba"><img src="/assets/img/thumbs/aqaba_profile.jpg" alt="" loading="lazy"><span class="topic-label">Dead Sea Transform, Gulf of Aqaba</span></a>
+  <a href="#sirhan"><img src="/assets/img/thumbs/sirhan_uplift.jpg" alt="" loading="lazy"><span class="topic-label">Aquifer unloading, Sirhan Basin</span></a>
+</div>
+
 
 ## Interseismic Loading of the Peru-Chile Subduction Zone using InSAR and Bayesian Inference (in prep.)
 {: #chile-insar}
@@ -56,6 +67,9 @@ In [this study](https://www.science.org/doi/full/10.1126/sciadv.abk1167), we fin
 
 ## Elastic stress relay during the 2025 Santorini–Kolumbo unrest
 {: #aegean}
+
+![sciadv-2026-aegean-f3](/assets/img/sciadv-2026-aegean-f3.jpg){:style="width: 70%; height: auto;"}
+> InSAR and GNSS observations, model predictions, and residuals for the deflation–intrusion episode. Figure 3 of Wilding, Wang et al. (2026), CC BY-NC 4.0.
 
 In early 2025, an intense earthquake swarm began near the Kolumbo volcano, northeast of Santorini in the Aegean Sea. Its driving process was debated, with interpretations ranging from dike intrusion to aseismic fault slip.
 

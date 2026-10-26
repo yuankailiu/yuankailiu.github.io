@@ -43,11 +43,11 @@ I am a geophysicist interested in how lithospheric processes and medium properti
   + Thesis: Space Geodetic Constraints on Plate Motion, Fault Creep, and Megathrust Coupling
   + Advisor: Mark Simons, Zach Ross
 
-+ Ph.D. Minor, Computational Science, California Institute of Technology, 2021--2025
+
 + M.S., Earth Science and Engineering, KAUST, Saudi Arabia, 2016--2018
   + Thesis: Ground Deformation Related to Caldera Collapse and Ring-Fault Activity
   + Advisor: Sigurjón Jónsson
-+ B.S., Geology & B.Eng., Civil Engineering, National Taiwan University, 2010--2015
++ B.S., Geology; B.Eng., Civil Engineering, National Taiwan University, 2010--2015
 
 ## Experience
 
@@ -59,25 +59,7 @@ I am a geophysicist interested in how lithospheric processes and medium properti
 
 ## Publications
 
-Wilding, J. D.<sup>†</sup>, Wang, T. A.<sup>†</sup>, **Liu, Y.-K.**, & Ross, Z. E. (2026). Cascading magmatic unrest and aseismic faulting in the Aegean Sea enabled by elastic stress relay. Science Advances, 12(39), eaec3198. [html](https://doi.org/10.1126/sciadv.aec3198), [PDF](./files/Wilding_etal_SciAdv2026.pdf)
-
-Pereiaslov, L., Ragon, T., **Liu, Y.-K.**, Bato, M. G., Govorcin, M., Fielding, E., & Simons, M. (2026). Bayesian Co- and Postseismic Slip Model of the 2023 M<sub>w</sub> 7.8 and 7.7 Türkiye–Syria Earthquake Doublet from Geodetic Data. Seismological Research Letters. [html](https://doi.org/10.1785/0220260122), [PDF](./files/Pereiaslov_etal_SRL2026.pdf)
-
-**Liu, Y.-K.**, Yunjun, Z., & Simons, M. (2025). Inferring Tectonic Plate Rotations From InSAR Time Series. Geophysical Research Letters, 52(12), e2025GL115137. [html](https://doi.org/10.1029/2025GL115137), [open html](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2025GL115137), [PDF](./files/Liu_etal_GRL2025.pdf)
-
-**Liu, Y.-K.** (2025). Space Geodetic Constraints on Plate Motion, Fault Creep, and Megathrust Coupling. Ph.D. dissertation, California Institute of Technology. [html](https://thesis.caltech.edu/17795/), doi:[10.7907/d6e6-q845](https://doi.org/10.7907/d6e6-q845)
-
-Stephenson, O. L.<sup>†</sup>, **Liu, Y.-K.<sup>†</sup>**, Yunjun, Z., Simons, M., Rosen, P., & Xu, X. (2022). The Impact of Plate Motions on Long‐Wavelength InSAR‐Derived Velocity Fields. Geophysical Research Letters, 49(21), e2022GL099835. [html](https://doi.org/10.1029/2022GL099835), [open html](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2022GL099835), [PDF](./files/Stephenson_Liu_GRL2022.pdf)
-
-**Liu, Y.-K.**, Ross, Z. E., Cochran, E. S., & Lapusta, N. (2022). A unified perspective of seismicity and fault coupling along the San Andreas Fault. Science Advances, 8(8), eabk1167. [html](https://doi.org/10.1126/sciadv.abk1167), [PDF](./files/Liu_etal_SciAdv2022.pdf)
-
-Aldaajani, T., Simons, M., Yunjun, Z., Bekaert, D., Almalki, K. A., & **Liu, Y.-K.** (2022). Using InSAR Time Series to Monitor Surface Fractures and Fissures in the Al-Yutamah Valley, Western Arabia. Remote Sensing, 14(8), 1769. [html](https://doi.org/10.3390/rs14081769)
-
-**Liu, Y.-K.**, Ruch, J., Vasyura-Bathke, H., & Jónsson, S. (2019). Influence of ring faulting in localizing surface deformation at subsiding calderas. Earth and Planetary Science Letters, 526, 115784. [html](https://doi.org/10.1016/j.epsl.2019.115784), [PDF](./files/Liu_etal_EPSL2019.pdf)
-
-
-<sup>†</sup> Equal contribution
-
+{% include publications.html %}
 
 ## Media
 Editor's highlight by EOS (AGU): [Mapping the Whereabouts of Continents

@@ -167,3 +167,92 @@
   // The browser jumps to the #anchor after this script runs, so redo the scroll once loaded
   window.addEventListener('load', function () { setTimeout(openFromHash, 0); });
 })();
+
+/* Publications: "Cite" shows the BibTeX box, "Copy" puts it on the clipboard. */
+(function () {
+  document.addEventListener('click', function (e) {
+    var cite = e.target.closest('[data-bib]');
+    if (cite) {
+      var box = document.getElementById(cite.getAttribute('data-bib'));
+      if (!box) return;
+      box.hidden = !box.hidden;
+      cite.setAttribute('aria-expanded', box.hidden ? 'false' : 'true');
+      return;
+    }
+
+    var copy = e.target.closest('.copy-btn');
+    if (copy) {
+      var text = copy.parentNode.querySelector('pre').textContent;
+      var done = function () {
+        copy.textContent = 'Copied';
+        setTimeout(function () { copy.textContent = 'Copy'; }, 1500);
+      };
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(done, function () { copy.textContent = 'Select & copy'; });
+      } else {
+        var range = document.createRange();
+        range.selectNodeContents(copy.parentNode.querySelector('pre'));
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+      }
+    }
+  });
+})();
+
+/* Color theme switch: light / dark / auto (follow the device). */
+(function () {
+  var buttons = document.querySelectorAll('[data-theme-choice]');
+  if (!buttons.length) return;
+
+  function current() {
+    var t = document.documentElement.getAttribute('data-theme');
+    return (t === 'light' || t === 'dark') ? t : 'auto';
+  }
+
+  function mark() {
+    var t = current();
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].setAttribute('aria-pressed', buttons[i].getAttribute('data-theme-choice') === t ? 'true' : 'false');
+    }
+  }
+
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function () {
+      var t = this.getAttribute('data-theme-choice');
+      if (t === 'auto') document.documentElement.removeAttribute('data-theme');
+      else document.documentElement.setAttribute('data-theme', t);
+      try {
+        if (t === 'auto') localStorage.removeItem('theme');
+        else localStorage.setItem('theme', t);
+      } catch (e) {}
+      mark();
+    });
+  }
+  mark();
+})();
+
+/* Back-to-top button, shown after scrolling down a bit. */
+(function () {
+  var btn = document.querySelector('.to-top');
+  if (!btn) return;
+  var ticking = false;
+
+  function update() {
+    ticking = false;
+    btn.hidden = window.scrollY < 600;
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(update);
+    }
+  }, { passive: true });
+
+  btn.addEventListener('click', function () {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+  });
+  update();
+})();

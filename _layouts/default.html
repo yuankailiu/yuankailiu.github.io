@@ -8,6 +8,14 @@
 
       {% seo %}
 
+      <!-- Apply a saved Light/Dark choice before first paint (Auto follows the device) -->
+      <script>
+        try {
+          var savedTheme = localStorage.getItem('theme');
+          if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.setAttribute('data-theme', savedTheme);
+        } catch (e) {}
+      </script>
+
       <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
       <link rel="stylesheet" href="{{ "/assets/css/style.css?v=2" | append: site.github.build_revision | relative_url }}">
   </head>
@@ -23,7 +31,7 @@
 
         <!-- Display photo caption -->
         {% if site.photo_caption %}
-          <p style="margin-top: -10px; margin-bottom: 20px; font-size: 0.85rem; color: #777; font-style: italic;">
+          <p style="margin-top: -10px; margin-bottom: 20px; font-size: 0.85rem; color: var(--muted); font-style: italic;">
             {{ site.photo_caption }}
           </p>
         {% endif %}
@@ -45,14 +53,14 @@
 
           <!-- Address display -->
           {% if site.address %}
-            <p style="margin: 10px 0 0 0; color: #444; line-height: 1.4;">
+            <p style="margin: 10px 0 0 0; line-height: 1.4;">
               {{ site.address | replace: ", ", "<br>" }}
             </p>
           {% endif %}
 
           <!-- Phone display -->
           {% if site.phone %}
-            <p style="margin: 5px 0 0 0; color: #444;">Tel: {{ site.phone }}</p>
+            <p style="margin: 5px 0 0 0;">Tel: {{ site.phone }}</p>
           {% endif %}
 
           <hr style="border: 0; border-top: 1px solid var(--line); margin: 15px 0;">
@@ -77,6 +85,13 @@
             <p style="margin: 0;"><a href="https://orcid.org/{{ site.orcid }}" target="_blank">ORCID</a></p>
           {% endif %}
 
+        </div>
+
+        <!-- Color theme: Light (Latte-ish), Dark (Mocha), Auto (device setting) -->
+        <div class="theme-switch" role="group" aria-label="Color theme">
+          <button type="button" data-theme-choice="light">Light</button>
+          <button type="button" data-theme-choice="dark">Dark</button>
+          <button type="button" data-theme-choice="auto">Auto</button>
         </div>
 
         {% if site.show_downloads %}
@@ -109,6 +124,8 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+    <button type="button" class="to-top" aria-label="Back to top" hidden>&uarr; Top</button>
+
     <script src="{{ "/assets/js/site.js" | relative_url }}"></script>
   </body>
 </html>
