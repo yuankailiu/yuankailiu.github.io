@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Materials"
 permalink: /materials/
 ---
@@ -8,8 +8,8 @@ permalink: /materials/
 
 A place that I store various random stuff.
 
-- [Euler pole calculation](assets/docs/Euler_pole_doc.pdf)
+- [Euler pole calculation](/assets/docs/Euler_pole_doc.pdf)
 
 _yay_
 
-[back](./)
+[back](/)

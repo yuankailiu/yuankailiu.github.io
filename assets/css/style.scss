@@ -160,3 +160,14 @@ img, iframe {
 * {
     box-sizing: border-box;
 }
+/* Classic link colors: visited links turn purple */
+section a:visited {
+    color: #551a8b !important;
+}
+
+/* Divider between research topics */
+hr.topic-divider {
+    border: 0 !important;
+    border-top: 1px dashed #bbb !important;
+    margin: 2.5rem 0 !important;
+}
