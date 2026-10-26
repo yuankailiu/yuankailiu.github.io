@@ -2,6 +2,21 @@
 ---
 @import "jekyll-theme-minimal";
 
+/* Color tokens: between the old cream page and Catppuccin Latte */
+:root {
+    --bg: #f7f8f6;
+    --tab-bg: #eceef1;
+    --text: #2e303e;
+    --muted: #6c6f85;
+    --line: #d6dae2;
+    --link: #1e5ae0;
+    --visited: #7139c9;
+    --accent: #8c1515;
+    --accent-hover: #ba2424;
+    --highlight: rgba(223, 142, 29, 0.18);
+    --sidebar-w: 240px;
+}
+
 /* Disable font boosting completely - fixes zoom jump */
 html {
     -webkit-text-size-adjust: 100% !important;
@@ -11,8 +26,8 @@ html {
 body {
     font-size: 17px !important;
     font-family: "Et-Book", "Palatino Linotype", "Palatino", "Georgia", serif !important;
-    background-color: #fffff8 !important;
-    color: #111 !important;
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
     line-height: 1.6 !important;
     margin: 0 !important;
     padding: 0 2% !important;
@@ -21,46 +36,120 @@ body {
 .wrapper {
     display: flex !important;
     flex-direction: row !important;
+    flex-wrap: wrap !important;
     max-width: 95% !important;  /* Wide on desktop */
     width: 100% !important;
     margin: 0 auto !important;
     padding: 2rem 0 !important;
-    gap: 40px !important;
+    gap: 0 !important;
 }
 
-/* Left sidebar */
+/* Left sidebar, width set by --sidebar-w (draggable splitter) */
 header {
-    flex: 0 0 240px !important;  /* Fixed width sidebar */
+    flex: 0 0 var(--sidebar-w) !important;
+    width: var(--sidebar-w) !important;
     position: sticky !important;
     top: 2rem !important;
     align-self: flex-start !important;
+    padding: 0 !important;  /* theme adds padding-right: 320px below 960px */
 }
 
 header img {
-    width: 180px !important;
-    height: 180px !important;
+    width: min(180px, 100%) !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1;
     object-fit: cover !important;
     border-radius: 50% !important;
-    border: 2px solid #eee !important;
+    border: 2px solid var(--line) !important;
     margin-bottom: 15px !important;
+}
+
+/* Splitter between sidebar and content */
+.splitter {
+    flex: 0 0 40px;
+    align-self: stretch;
+    position: relative;
+    cursor: col-resize;
+    touch-action: none;
+    outline: none;
+}
+
+.splitter::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background: var(--line);
+    transition: background-color 0.15s, width 0.15s;
+}
+
+.splitter-grip {
+    position: sticky;
+    top: 45vh;
+    display: block;
+    width: 8px;
+    height: 36px;
+    margin: 0 auto;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--bg);
+    transition: border-color 0.15s;
+}
+
+.splitter:hover::before,
+.splitter:focus-visible::before,
+body.resizing .splitter::before {
+    width: 2px;
+    background: var(--link);
+}
+
+.splitter:hover .splitter-grip,
+.splitter:focus-visible .splitter-grip,
+body.resizing .splitter-grip {
+    border-color: var(--link);
+}
+
+body.resizing {
+    cursor: col-resize !important;
+    user-select: none !important;
 }
 
 /* Main content - takes all remaining space */
 section {
-    flex: 1 !important;
+    flex: 1 1 0 !important;
+    width: auto !important;
+    float: none !important;
     min-width: 0 !important;  /* Prevents overflow */
+    border: 0 !important;     /* theme adds borders below 960px */
+    margin: 0 !important;
+    padding: 0 0 50px 0 !important;
+}
+
+/* Footer: back in normal flow, full width under both columns */
+footer {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    position: static !important;
+    float: none !important;
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    text-align: center;
 }
 
 /* --- Color scheme: Stanford Cardinal Red --- */
 header h1 a {
-    color: #9c1414 !important;
+    color: var(--accent) !important;
     font-weight: 600 !important;
     font-style: normal !important;
     font-size: 24px !important;
 }
 
 section h1 {
-    color: #8C1515 !important;
+    color: var(--accent) !important;
     font-weight: 700 !important;
     font-style: italic !important;
 }
@@ -75,20 +164,25 @@ section h4 {
 
 header h1 a:hover {
     text-decoration: none !important;
-    color: #ba2424 !important;
+    color: var(--accent-hover) !important;
 }
 
 h1 { font-size: 32px !important; }
-h2 { font-size: 26px !important; border-bottom: 1px solid #eee !important; padding-bottom: 5px; margin-top: 2rem !important; }
+h2 { font-size: 26px !important; border-bottom: 1px solid var(--line) !important; padding-bottom: 5px; margin-top: 2rem !important; }
 h3 { font-size: 20px !important; }
 
-header a, section a {
-    color: #0242f1 !important;
+header a, section a, footer a {
+    color: var(--link) !important;
     text-decoration: underline !important;
 }
 
+/* Classic link colors: visited links turn purple */
+section a:visited {
+    color: var(--visited) !important;
+}
+
 section a:hover {
-    background-color: #fffdc0 !important;
+    background-color: var(--highlight) !important;
 }
 
 header p, header nav a, header div.contact-links p {
@@ -102,10 +196,119 @@ img, iframe {
     height: auto !important;
 }
 
+blockquote {
+    border-left-color: var(--line) !important;
+    color: var(--muted);
+}
+
+/* Divider between research topics */
+hr.topic-divider {
+    border: 0 !important;
+    border-top: 1px dashed #b8bdc9 !important;
+    margin: 2.5rem 0 !important;
+}
+
+/* Research-interest badges */
+.tag {
+    display: inline-block;
+    margin: 0.15em 0.15em;
+    padding: 0 0.65em;
+    border: 1px solid;
+    border-radius: 999px;
+    font-size: 0.85em;
+    line-height: 1.7;
+    white-space: nowrap;
+}
+.tag.blue  { color: #1a55cc; background: #e1e9fb; border-color: #b8cbf5; }
+.tag.green { color: #2f7a1f; background: #e3f1df; border-color: #bcdcb3; }
+.tag.peach { color: #b44a08; background: #fdeadd; border-color: #f6c7a6; }
+.tag.mauve { color: #6f2cc4; background: #eee4fc; border-color: #d3bdf5; }
+.tag.teal  { color: #11707a; background: #ddf0f0; border-color: #addada; }
+
+/* News list: date in front, sub-items indented */
+ul.news {
+    list-style: none;
+    padding-left: 0;
+}
+ul.news > li {
+    margin: 0 0 0.7em 0;
+    padding-left: 6em;
+    text-indent: -6em;
+}
+ul.news > li > strong:first-child {
+    display: inline-block;
+    width: 6.667em;  /* 6em of the list item at 0.9em font size */
+    white-space: nowrap;
+    text-indent: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--muted);
+}
+ul.news ul {
+    margin: 0.2em 0 0 0;
+    padding-left: 1.2em;
+    text-indent: 0;
+    list-style: square;
+}
+ul.news ul li {
+    margin: 0.1em 0;
+}
+
+/* Keep sub/superscripts (e.g., M_w) from stretching line spacing */
+sub, sup {
+    line-height: 0;
+}
+
+/* Tabs on pages with `tabs: true` (built by assets/js/site.js) */
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin: 1.2rem 0 1rem 0;
+    border-bottom: 1px solid var(--line);
+}
+.tabs button {
+    margin-bottom: -1px;
+    padding: 4px 14px;
+    font: inherit;
+    font-size: 16px;
+    color: var(--text);
+    background: var(--tab-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+}
+.tabs button:hover {
+    background: var(--highlight);
+}
+.tabs button[aria-selected="true"] {
+    color: var(--accent);
+    font-weight: 600;
+    background: var(--bg);
+    border-bottom-color: var(--bg);
+}
+.tabs button:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 1px;
+}
+
+/* The tab label already names the panel, so hide the duplicate h2 visually */
+.tabs-ready .tab-panel > h2:first-child {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0 !important;
+}
+
 /* MOBILE: Single column, sidebar on top, content below */
 @media (max-width: 768px) {
     body {
         padding: 0 15px !important;
+        font-size: 15px !important;
     }
 
     .wrapper {
@@ -128,19 +331,17 @@ img, iframe {
 
     header img {
         width: 120px !important;
-        height: 120px !important;
         margin: 0 auto 15px auto !important;
+    }
+
+    .splitter {
+        display: none;
     }
 
     /* Content below sidebar */
     section {
         width: 100% !important;
         padding: 0 !important;
-    }
-
-    /* Smaller fonts for mobile */
-    body {
-        font-size: 15px !important;
     }
 
     h1 { font-size: 26px !important; }
@@ -154,20 +355,40 @@ img, iframe {
     header p, header nav a, header div.contact-links p {
         font-size: 14px !important;
     }
+
+    .tabs button {
+        font-size: 14px;
+        padding: 3px 10px;
+    }
+
+    /* News: date on its own line */
+    ul.news > li {
+        padding-left: 0;
+        text-indent: 0;
+    }
+    ul.news > li > strong:first-child {
+        display: block;
+        width: auto;
+    }
+}
+
+/* Print: no splitter or tab bar, show every panel */
+@media print {
+    .splitter, .tabs {
+        display: none !important;
+    }
+    .tab-panel[hidden] {
+        display: block !important;
+    }
+    .tabs-ready .tab-panel > h2:first-child {
+        position: static !important;
+        width: auto;
+        height: auto;
+        clip: auto;
+    }
 }
 
 /* Prevent any zoom-related reflows */
 * {
     box-sizing: border-box;
-}
-/* Classic link colors: visited links turn purple */
-section a:visited {
-    color: #551a8b !important;
-}
-
-/* Divider between research topics */
-hr.topic-divider {
-    border: 0 !important;
-    border-top: 1px dashed #bbb !important;
-    margin: 2.5rem 0 !important;
 }

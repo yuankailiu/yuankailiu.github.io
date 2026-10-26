@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Yuan-Kai Liu
+tabs: true
 ---
 
 # Space geodesy · Lithospheric deformation
@@ -12,28 +13,29 @@ I am a postdoctoral researcher at the Department of Geophysics, Doerr School of 
 
 I am a geophysicist interested in how lithospheric processes and medium properties manifest as observable crustal deformation. My research integrates high-resolution spaceborne geodesy (primarily **InSAR** and **GNSS**) with seismological data to resolve the deformation continuum across diverse scales. I am interested in inverse problems that use optimization or stochastic sampling methods to infer the kinematics of faults, volcanoes, and plate rotations through analytical formulations and Boundary Element Modeling.
 
-**Research Interests:**
-geophysics, tectonic geodesy, seismic cycles, inverse problems.
+<p class="interests"><strong>Research Interests:</strong>
+<span class="tag blue">geophysics</span>
+<span class="tag green">tectonic geodesy</span>
+<span class="tag peach">seismic cycles</span>
+<span class="tag mauve">inverse problems</span>
+</p>
 
 ## News
 
-[12/2026] At AGU26, I am co-convening the session G019 *Subduction Zone Deformation Throughout the Earthquake Cycle: Observations and Models* with Elizabeth Sherrill (GEOMAR) and Nicolás Castro Perdomo (Indiana University). I will also give a talk in G021 (G21A-05) on a wide-area joint geodetic view of backarc deformation along the Peru–Chile margin, and share an update on Sentinel-1/NISAR closure-phase work in the Kaweah Basin, CA.
-
-[10/2026] Our Bayesian co- and postseismic slip model of the 2023 Türkiye–Syria earthquake doublet, led by Leonid Pereiaslov, is out in [Seismological Research Letters](https://doi.org/10.1785/0220260122).
-
-[09/2026] Our study of the 2025 Santorini–Kolumbo earthquake swarm, led by John Wilding and Taiyi Wang, is out in [Science Advances](https://doi.org/10.1126/sciadv.aec3198). A dike intrusion triggered an M<sub>w</sub> 6.2 aseismic slip transient on the Amorgos fault.
-
-[08/2026] Presented our soil closure-phase work in the Kaweah Basin, CA, at the IEEE IGARSS meeting in Washington, DC.
-
-[04/2026] Presented my [recent work on the Peru–Chile subduction zone](/research/#chile-insar) at the [SZ4D conference](https://www.sz4d.org/events/2026-sz4d-science-community-meeting) in Long Beach, CA.
-
-[01/2026] I start my postdoc at **Geophysics, Stanford**, working with Prof. [Howard Zebker](https://ee.stanford.edu/~zebker/index.html) to advance open-access ground displacement products for volcano monitoring globally using Sentinel-1 and NISAR data. I am also working with Prof. [Rosemary Knight](https://sustainability.stanford.edu/people/rosemary-knight) to explore the capability of InSAR in our understanding of surface and subsurface hydrological processes.
-
-[12/2025] Presented our Peru–Chile megathrust coupling work in the subduction zone deformation session at AGU25, New Orleans.
-
---
-
-[10/2025] *I have defended my Ph.D. dissertation from the [Caltech Seismolab](https://www.seismolab.caltech.edu), under the mentorship of Profs. [Mark Simons](http://web.gps.caltech.edu/~simons/) and [Zach Ross](http://web.gps.caltech.edu/~zross/). Check out [my thesis](https://thesis.caltech.edu/17795/).*
+- **[12/2026]** At AGU26:
+  - Co-convening session G019 *Subduction Zone Deformation Throughout the Earthquake Cycle: Observations and Models* with Elizabeth Sherrill (GEOMAR) and Nicolás Castro Perdomo (Indiana University).
+  - Talk in G021 (G21A-05) on a wide-area joint geodetic view of backarc deformation along the Peru–Chile margin.
+  - Update on Sentinel-1/NISAR closure-phase work in the Kaweah Basin, CA.
+- **[10/2026]** Our Bayesian co- and postseismic slip model of the 2023 Türkiye–Syria earthquake doublet, led by Leonid Pereiaslov, is out in [Seismological Research Letters](https://doi.org/10.1785/0220260122).
+- **[09/2026]** Our study of the 2025 Santorini–Kolumbo earthquake swarm, led by John Wilding and Taiyi Wang, is out in [Science Advances](https://doi.org/10.1126/sciadv.aec3198). A dike intrusion triggered an M<sub>w</sub> 6.2 aseismic slip transient on the Amorgos fault.
+- **[08/2026]** Presented our soil closure-phase work in the Kaweah Basin, CA, at the IEEE IGARSS meeting in Washington, DC.
+- **[04/2026]** Presented my [recent work on the Peru–Chile subduction zone](/research/#chile-insar) at the [SZ4D conference](https://www.sz4d.org/events/2026-sz4d-science-community-meeting) in Long Beach, CA.
+- **[01/2026]** Started my postdoc at **Geophysics, Stanford**:
+  - With Prof. [Howard Zebker](https://ee.stanford.edu/~zebker/index.html), advancing open-access ground displacement products for global volcano monitoring using Sentinel-1 and NISAR data.
+  - With Prof. [Rosemary Knight](https://sustainability.stanford.edu/people/rosemary-knight), exploring what InSAR can tell us about surface and subsurface hydrological processes.
+- **[12/2025]** Presented our Peru–Chile megathrust coupling work in the subduction zone deformation session at AGU25, New Orleans.
+- **[10/2025]** *Defended my Ph.D. dissertation at the [Caltech Seismolab](https://www.seismolab.caltech.edu), under the mentorship of Profs. [Mark Simons](http://web.gps.caltech.edu/~simons/) and [Zach Ross](http://web.gps.caltech.edu/~zross/). Check out [my thesis](https://thesis.caltech.edu/17795/).*
+{: .news}
 
 ## Education
 
@@ -53,11 +55,6 @@ geophysics, tectonic geodesy, seismic cycles, inverse problems.
 * **08/2019--10/2025:** Graduate researcher, Caltech Seismological Laboratory
 * **08/2016--07/2018:** Master researcher, Crustal deformation & InSAR group, King Abdullah University of Science and Technology (KAUST, Saudi Arabia)
 * 2015: Research assistant, Institute of Earth Sciences, Academia Sinica, Taipei, Taiwan
-
-
-## Media
-Editor's highlight by EOS (AGU): [Mapping the Whereabouts of Continents
-](https://eos.org/editor-highlights/mapping-the-whereabouts-of-continents)
 
 
 ## Publications
@@ -81,6 +78,12 @@ Aldaajani, T., Simons, M., Yunjun, Z., Bekaert, D., Almalki, K. A., & **Liu, Y.-
 
 <sup>†</sup> Equal contribution
 
+
+## Media
+Editor's highlight by EOS (AGU): [Mapping the Whereabouts of Continents
+](https://eos.org/editor-highlights/mapping-the-whereabouts-of-continents)
+
+<div class="tabs-end"></div>
 
 *   *   *
 

@@ -29,7 +29,7 @@
         {% endif %}
 
         <!-- 1. Navigation links (moved to top, larger font) -->
-        <nav style="margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
+        <nav style="margin-bottom: 30px; border-bottom: 1px solid var(--line); padding-bottom: 15px;">
           <p style="margin: 8px 0;"><a href="{{ site.baseurl }}/" style="font-weight: bold; font-size: 1.15em;">About</a></p>
           <p style="margin: 8px 0;"><a href="{{ site.baseurl }}/research/" style="font-weight: bold; font-size: 1.15em;">Research</a></p>
           <p style="margin: 8px 0;"><a href="{{ "/assets/img/ykliu_cv_202610.pdf" | relative_url }}" style="font-weight: bold; font-size: 1.15em;">CV</a></p>
@@ -55,7 +55,7 @@
             <p style="margin: 5px 0 0 0; color: #444;">Tel: {{ site.phone }}</p>
           {% endif %}
 
-          <hr style="border: 0; border-top: 1px solid #eee; margin: 15px 0;">
+          <hr style="border: 0; border-top: 1px solid var(--line); margin: 15px 0;">
 
           <!-- Google Scholar -->
           {% if site.google_scholar_url %}
@@ -88,7 +88,9 @@
         {% endif %}
       </header>
 
-      <section>
+      <div class="splitter" role="separator" aria-orientation="vertical" aria-label="Resize sidebar" aria-valuemin="180" aria-valuemax="480" tabindex="0" title="Drag to resize, double-click to reset"><span class="splitter-grip"></span></div>
+
+      <section{% if page.tabs %} class="tabbed"{% endif %}>
         {{ content }}
       </section>
 
@@ -107,5 +109,6 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+    <script src="{{ "/assets/js/site.js" | relative_url }}"></script>
   </body>
 </html>
