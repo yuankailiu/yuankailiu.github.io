@@ -264,11 +264,12 @@ hr.topic-divider {
 .tag {
     display: inline-block;
     margin: 0.15em 0.15em;
-    padding: 0 0.65em;
+    padding: 0 0.6em;
     border: 1px solid;
-    border-radius: 999px;
-    font-size: 0.85em;
-    line-height: 1.7;
+    border-radius: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13.5px;
+    line-height: 1.8;
     white-space: nowrap;
 }
 .tag.blue  { color: var(--tag-blue);  background: var(--tag-blue-bg);  border-color: var(--tag-blue-line); }
