@@ -17,11 +17,6 @@
     --accent: #8c1515;
     --accent-hover: #ba2424;
     --highlight: rgba(223, 142, 29, 0.18);
-    --tag-blue: #1a55cc;  --tag-blue-bg: #e1e9fb;  --tag-blue-line: #b8cbf5;
-    --tag-green: #2f7a1f; --tag-green-bg: #e3f1df; --tag-green-line: #bcdcb3;
-    --tag-peach: #b44a08; --tag-peach-bg: #fdeadd; --tag-peach-line: #f6c7a6;
-    --tag-mauve: #6f2cc4; --tag-mauve-bg: #eee4fc; --tag-mauve-line: #d3bdf5;
-    --tag-teal: #11707a;  --tag-teal-bg: #ddf0f0;  --tag-teal-line: #addada;
     --sidebar-w: 240px;
 }
 
@@ -40,11 +35,6 @@
     --accent: #f38ba8;
     --accent-hover: #eba0ac;
     --highlight: rgba(249, 226, 175, 0.14);
-    --tag-blue: #89b4fa;  --tag-blue-bg: rgba(137, 180, 250, 0.12); --tag-blue-line: rgba(137, 180, 250, 0.4);
-    --tag-green: #a6e3a1; --tag-green-bg: rgba(166, 227, 161, 0.12); --tag-green-line: rgba(166, 227, 161, 0.4);
-    --tag-peach: #fab387; --tag-peach-bg: rgba(250, 179, 135, 0.12); --tag-peach-line: rgba(250, 179, 135, 0.4);
-    --tag-mauve: #cba6f7; --tag-mauve-bg: rgba(203, 166, 247, 0.12); --tag-mauve-line: rgba(203, 166, 247, 0.4);
-    --tag-teal: #94e2d5;  --tag-teal-bg: rgba(148, 226, 213, 0.12); --tag-teal-line: rgba(148, 226, 213, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -259,24 +249,6 @@ hr.topic-divider {
     border-top: 1px dashed var(--line) !important;
     margin: 2.5rem 0 !important;
 }
-
-/* Research-interest badges */
-.tag {
-    display: inline-block;
-    margin: 0.15em 0.15em;
-    padding: 0 0.6em;
-    border: 1px solid;
-    border-radius: 0;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 13.5px;
-    line-height: 1.8;
-    white-space: nowrap;
-}
-.tag.blue  { color: var(--tag-blue);  background: var(--tag-blue-bg);  border-color: var(--tag-blue-line); }
-.tag.green { color: var(--tag-green); background: var(--tag-green-bg); border-color: var(--tag-green-line); }
-.tag.peach { color: var(--tag-peach); background: var(--tag-peach-bg); border-color: var(--tag-peach-line); }
-.tag.mauve { color: var(--tag-mauve); background: var(--tag-mauve-bg); border-color: var(--tag-mauve-line); }
-.tag.teal  { color: var(--tag-teal);  background: var(--tag-teal-bg);  border-color: var(--tag-teal-line); }
 
 /* News list: date in front, sub-items indented */
 ul.news {

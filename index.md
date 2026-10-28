@@ -13,12 +13,8 @@ I am a postdoctoral researcher at the Department of Geophysics, Doerr School of 
 
 I am a geophysicist interested in how lithospheric processes and medium properties manifest as observable crustal deformation. My research integrates high-resolution spaceborne geodesy (primarily **InSAR** and **GNSS**) with seismological data to resolve the deformation continuum across diverse scales. I am interested in inverse problems that use optimization or stochastic sampling methods to infer the kinematics of faults, volcanoes, and plate rotations through analytical formulations and Boundary Element Modeling.
 
-<p class="interests"><strong>Research Interests:</strong>
-<span class="tag blue">geophysics</span>
-<span class="tag green">tectonic geodesy</span>
-<span class="tag peach">seismic cycles</span>
-<span class="tag mauve">inverse problems</span>
-</p>
+**Research Interests:**
+geophysics, tectonic geodesy, seismic cycles, inverse problems.
 
 ## News
 
